@@ -48,9 +48,9 @@ main{
     font-family:'nunito';
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-main h2{
+/**main h2{
     border-bottom: 2px solid #424874;
-}
+}**/
 
 footer p{
     font-size:20px;
