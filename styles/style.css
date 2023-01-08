@@ -52,11 +52,11 @@ main h2{
     border-bottom: 2px solid #424874;
 }
 
-footer a{
-    color: #f4eeff;
+footer p{
+    font-size:20px;
 }
-
 footer p:last-of-type{
     color: rgb(234, 240, 59);
     font-weight: 700;
+    font-size:20px;
 }
