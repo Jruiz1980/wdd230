@@ -14,7 +14,8 @@ container {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 header,footer{
-    background-color: #a6b1e1;
+    background-color: rgb(51, 119, 170);
+    box-shadow:0 10px 10px rgb(172,172,172);
     color: #f4eeff;
     border-radius: .8em;
     margin: 0;
@@ -28,7 +29,7 @@ header{
 header img{
     float: right;
     max-width: 6em;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px rgb(172,172,172);
     top:0;
     right: 0;
 }
@@ -51,6 +52,6 @@ footer a{
 }
 
 footer p:last-of-type{
-    color: #FFEFB8;
+    color: rgb(234, 240, 59);
     font-weight: 700;
 }
