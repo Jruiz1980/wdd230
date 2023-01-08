@@ -32,8 +32,6 @@ header{
     float: left;
     max-width: 6em;
     box-shadow: 0 3px 3px rgb(172,172,172);
-    /**top:0;
-    right: 0;**/
 }
 
 header h1{
