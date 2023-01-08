@@ -4,4 +4,4 @@ let d = new Date();
 
 let lastUpdated = document.lastModified;
 
-    document.getElementById("updatedDate").textContent = lastUpdated;
+    document.getElementById("lastModified").textContent = lastUpdated;
