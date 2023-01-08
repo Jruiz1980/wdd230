@@ -28,7 +28,7 @@ header,footer{
     display: flex;
     justify-content: space-around;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
 }
 .Iam{
     float: left;
