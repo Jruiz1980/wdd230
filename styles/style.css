@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Open+Sans&display=swap');
-container {
-    margin:0;
-    background-color: #424874;
-    width: 100vw;
-    height: 100vh;
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:#F5EFFF;
     font-family: 'Lato', sans-serif;
 }
 .content{
@@ -11,7 +10,7 @@ container {
     margin: 0 auto;
     background-color: #dcd6f7;
     border-radius: .8em;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px rgba(172,172,172);
 }
 header,footer{
     background-color: rgb(51, 119, 170);
@@ -21,6 +20,7 @@ header,footer{
     margin: 0;
     text-align: center;
     padding: .5em;
+    font-family:'Open Sans', sans-serif;
 }
 
 header{
@@ -42,7 +42,10 @@ main{
     margin:0;
     padding: 1em;
 }
-
+.course{
+    font-family:'nunito';
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
 main h2{
     border-bottom: 2px solid #424874;
 }
