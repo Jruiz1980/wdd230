@@ -43,6 +43,7 @@ header h1{
 main{
     margin:0;
     padding: 1em;
+    line-height:40px;
 }
 .course{
     font-family:'nunito';
