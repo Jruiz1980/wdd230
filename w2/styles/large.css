@@ -1,0 +1,32 @@
+
+html {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color:#F5EFFF;
+}
+.content{
+    width:50%;
+    margin: 0 auto;
+    background-color: #dcd6f7;
+    border-radius: .8em;
+    box-shadow: 0 10px 10px rgba(172,172,172);
+}
+main{
+    margin:0;
+    padding: 1em;
+    line-height:40px;
+}
+header,footer{
+    background-color: rgb(51, 119, 170);
+    box-shadow:0 10px 10px rgb(172,172,172);
+    color: #f4eeff;
+    border-radius: .8em;
+    margin: 0;
+    text-align: center;
+    padding: .5em;
+    font-family:'Open Sans', sans-serif;
+}
+footer p{
+    font-size:20px;
+    font-weight: bold;
+}
