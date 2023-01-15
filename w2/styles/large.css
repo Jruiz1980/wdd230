@@ -1,27 +1,9 @@
-@media only screen and (min-width: 1em) {
-    main section:nth-child(3) {
-        grid-column: span 2;
-    }
-    /*.main {
+@media only screen and (min-width: 60em) {
+    main {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .top{
-        max-width:95%;
-        border-radius:2em;
-        justify-self: center;
-        background-color: #5e9ccc;
-        color:#f4eeff;
-        box-shadow: 0 10px 10px #acacac;
+    main div:nth-child(3){
+        grid-column: span 1;
     }
-    header,footer{
-        background-color: #3377aa;
-        box-shadow:0 10px 10px #acacac;
-        color: #f4eeff;
-        border-radius: .8em;
-        margin: 0;
-        text-align: center;
-        padding: .5em;
-        font-family:'Open Sans', sans-serif;
-    }*/
 }

@@ -1,24 +1,13 @@
-@media only screen and (min-width: 32.5em) {
-    .main {
+@media only screen and (min-width: 37.5em) {
+    main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .top{
-        max-width:95%;
-        border-radius:2em;
-        justify-self: center;
-        background-color: #5e9ccc;
-        color:#f4eeff;
-        box-shadow: 0 10px 10px #acacac;
+    main div:nth-child(3) {
+        grid-column: span 2;
     }
-    header,footer{
-        background-color: #3377aa;
-        box-shadow:0 10px 10px #acacac;
-        color: #f4eeff;
-        border-radius: .8em;
-        margin: 0;
-        text-align: center;
-        padding: .5em;
-        font-family:'Open Sans', sans-serif;
+    div p {
+        text-align: left;
+        font-size:auto;
     }
 }
