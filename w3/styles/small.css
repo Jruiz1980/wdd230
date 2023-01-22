@@ -8,4 +8,8 @@ header,footer{
     padding: .5em;
     font-family:'Lato', sans-serif;
     display: flex;
+    flex-flow:column;
+}
+.page-logo img{
+    width:20vw;
 }
