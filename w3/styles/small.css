@@ -1,0 +1,11 @@
+header,footer{
+    background-color: #115B9C;
+    box-shadow: 0 10px 10px #acacac;
+    color: #ffffff;
+    border-radius: .8em;
+    margin: 0;
+    text-align: center;
+    padding: .5em;
+    font-family:'Lato', sans-serif;
+    display: flex;
+}
