@@ -1,4 +1,4 @@
-header,footer{
+header,footer, nav{
     background-color: #115B9C;
     box-shadow: 0 10px 10px #acacac;
     color: #ffffff;
@@ -9,7 +9,10 @@ header,footer{
     font-family:'Lato', sans-serif;
     display: flex;
     flex-flow:column;
+    text-decoration: none;
+    list-style: none;
 }
 .page-logo img{
     width:20vw;
+    justify-self:left;
 }
