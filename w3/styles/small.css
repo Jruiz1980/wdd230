@@ -16,3 +16,35 @@ header,footer, nav{
     width:20vw;
     justify-self:left;
 }
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+.colors th {
+    background-color: #C2D7E6;
+}
+.colors td{
+    width: 25%;
+    height: 5em;
+}
+.primary {
+    background-color: #115B9C;
+    color:#ffffff;
+}
+.secondary {
+    background-color: #719DC4;
+    font-weight:bold;
+}
+.accent1 {
+    background-color: #9ABAD5;
+    font-weight: bold;
+}
+.accent2{
+    background-color: #C2D7E6;
+    font-weight: bold;
+}
+.accent3{
+    background:#ffffff;
+}
