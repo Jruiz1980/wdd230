@@ -11,17 +11,15 @@
         font-family:'Lato', sans-serif;
         
     }
-    nav ul{
+    nav ul {
         background-color: #115B9C;
         box-shadow: 0 10px 10px #acacac;
         border-radius: .8em;
         display: flex;
         flex-flow:column;
-        text-decoration: none;
         list-style: none;
-        color:#ffffff;
         margin: 15px 0;
-        padding: 0;
+        padding: 1em;
         font-size: 1.25rem;
     }
     ul {
@@ -31,6 +29,10 @@
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         padding-inline-start: 40px;
+    }
+    nav ul a {
+        color:#ffffff;
+        text-decoration: none;
     }
 main{
     color:#115B9C;
