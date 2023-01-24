@@ -34,9 +34,10 @@
         color:#ffffff;
         text-decoration: none;
     }
-    nav ul a :hover {
+    nav ul a:hover {
         background-color: #9ABAD5;
         color:#000000;
+        padding:1em;
     }
 main{
     color:#115B9C;
