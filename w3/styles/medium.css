@@ -1,0 +1,24 @@
+@media only screen and (min-width: 640px) {
+    body {
+        max-width: 940px;
+    }
+
+    header img {
+        width: 256px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
+    main section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    main section img {
+        width: 350px;
+    }
+}
