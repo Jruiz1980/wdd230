@@ -34,6 +34,10 @@
         color:#ffffff;
         text-decoration: none;
     }
+    nav ul a :hover {
+        background-color: #9ABAD5;
+        color:#000000;
+    }
 main{
     color:#115B9C;
     font-family:'Nunito', sans-serif;
