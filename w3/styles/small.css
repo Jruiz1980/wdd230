@@ -11,6 +11,17 @@
         font-family:'Lato', sans-serif;
         
     }
+    .page-logo img{
+        justify-self: left;
+        max-height: 8em;
+        max-width: 8em;
+    }
+    .page-header{
+        text-align: center;
+        text-overflow: inherit;
+        display:flex;
+        flex-flow: column;
+    }
     nav ul {
         background-color: #115B9C;
         box-shadow: 0 10px 10px #acacac;
