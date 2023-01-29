@@ -13,6 +13,9 @@ nav button {
 }
 header, nav {
     display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
     background-color: #115B9C;
     color:#ffffff;
     font-family:'Lato', sans-serif;
@@ -23,6 +26,8 @@ header, nav {
     padding: 1rem;
 }
 nav ul {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     padding:0;
     margin:0;
