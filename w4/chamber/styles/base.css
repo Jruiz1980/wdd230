@@ -50,6 +50,23 @@ nav ul.open{display:block;}
 
 #hamburgerBtn.open span:nth-child(1){display:none;}
 #hamburgerBtn.open span:nth-child(2){display:block;}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	font-family: Nunito, serif;
+	color: #FFFFFF;
+}
+.date,
+aside {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #115B9C;
+}
 
 
 
