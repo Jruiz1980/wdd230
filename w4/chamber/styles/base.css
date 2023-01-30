@@ -1,11 +1,11 @@
-    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  
 html {line-height: 1em; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
+/*----------- apply a natural box layout model to all elements --------------
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 *, *::before, *::after{
     box-sizing: inherit;
-}
+}*/
 
 nav button {
     margin: 0.2rem 2vw;
@@ -87,7 +87,7 @@ section{
 .spot div{
     width:100%;
     height: 33em;
-    /*border:1px solid #115B9C;*/
+    border:1px solid #115B9C;
 }   
 
 
