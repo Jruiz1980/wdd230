@@ -54,11 +54,11 @@ main h2{
 }
 
 footer p{
-    font-size:18px;
+    font-size:20px;
     font-weight: bold;
 }
 footer p:last-of-type{
     color: rgb(234, 240, 59);
     font-weight: 700;
-    font-size:18px;
+    font-size:20px;
 }
