@@ -1,4 +1,39 @@
-@media only screen and (min-width: 64rem){
+@media only screen and (min-width: 55em){
+    main{
+        display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows:repeat(3, 320px);
+        gap:1em;
+        margin:1em;
+    }
+    .event{
+        grid-column:1/2;
+        /*width:100%;*/
+    }
+    .hero{
+        grid-column:2/4;
+        grid-row:1/3;
+        height:100%;
+    }
+    .spot{
+        display:flex;
+        grid-column:4/5;
+        grid-row:1/4;
+        height:100%;
+        /*gap:0em;*/
+    }
+    .weather{
+        grid-column:1/2;
+        /*width:100%;*/
+    }
+    .join{
+        grid-column:1/2;
+        /*width:100%;*/
+    }
+    .news{
+        grid-column:2/4;
+        grid-row:3/4;
+    }
     nav ul li a{
         padding: 0.5rem 1rem;
     }
