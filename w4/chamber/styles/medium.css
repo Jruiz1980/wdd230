@@ -1,17 +1,5 @@
-@media only screen and (min-width: 700px){
-    header nav button {
-        display: none;
-    }
-    header nav ul#primaryNav{
-        display: flex;
-        margin-right: 2vw;
-        border-right: 1px solid rgba(0,0,0,0.3);
-    }
-    header nav ul li a {
-        border:none;
-        border-left: 1px solid rgba(0,0,0,0.3);
+@media only screen and (min-width: 37.5em){
 
-    }
     main{
         display:grid;
         grid-template-columns: repeat(2, 1fr);

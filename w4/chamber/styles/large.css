@@ -1,6 +1,18 @@
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 64em){
 
-    nav ul li a{
+    header nav button {
+        display: none;
+    }
+    header nav ul#primaryNav{
+        display: flex;
+        margin-right: 2vw;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+    header nav ul li a {
+        border:none;
+        border-left: 1px solid rgba(0,0,0,0.3);
+
+    }nav ul li a{
         padding: 0.5rem 1rem;
     }
     main{
