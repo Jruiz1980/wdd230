@@ -70,11 +70,15 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
 }
-.content{
+section{
     background-color: #C2D7E6;
-    min-height: 50%;
-    min-width: 50%;
+    height: 20em;
+    width: 100v;
     margin:0.5rem;
+}
+.spot{
+    display:flex;
+    flex-direction:column;
 }
 
 
