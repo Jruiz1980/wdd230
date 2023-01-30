@@ -73,15 +73,19 @@ main {
 section{
     background-color: #C2D7E6;
     height: 20em;
-    width: 100v;
+    width: 100%;
     margin:0.5rem;
 }
 .spot{
     display:flex;
     flex-direction:column;
-    
+    height: 100%;
 }
-
+.spot div{
+    width:100%;
+    height: 33em;
+    border:solid #115B9C
+}
 
 
 
