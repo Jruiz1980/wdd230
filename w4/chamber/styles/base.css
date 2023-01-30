@@ -13,7 +13,6 @@ nav button {
 }
 header, nav, footer{
     display:flex;
-    /*flex-flow: row wrap;*/
     justify-content: space-between;
     align-items: center;
     background-color: #115B9C;
