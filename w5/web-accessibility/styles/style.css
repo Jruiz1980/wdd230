@@ -1,0 +1,21 @@
+html{
+background-color:azure;
+}
+header {
+    margin: 2em;
+    border-radius: 0.6em;
+    background-color:#115b9c;
+}
+footer{
+    background-color:#115b9C;
+    border-radius:0.6em;
+}
+header, footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:blanchedalmond;
+    padding:1em;
+    text-align: center;
+}
+.video{
+text-align: center;
+}
