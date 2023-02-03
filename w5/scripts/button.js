@@ -1,24 +1,25 @@
-const button = document.querySelector("button");
-const input = document.querySelector("input");
-const list = document.querySelector("ul");
+const inputElement = document.querySelector("input");
+const buttonElement = document.querySelector("button");
+const listElement = document.querySelector("ul");
+buttonElement.addEventListener("click", function () {
+	const inputValue = inputElement.value.trim();
+	if (inputValue === "") {
+		return;
+	}
 
-button.addEventListener("clicl", function()
-{const inputVal =input.value.trim();
-if (input == ""){
-    return;
-}
-const list = document.createElement("li");
-const deleteB = document.createElement("button");
-    liElement.textContent = inputValue;
-	deleteB.textContent = "❌";
+	const liElement = document.createElement("li");
+	const deleteButton = document.createElement("button");
 
-	deleteB.addEventListener("click", function () {
+	liElement.textContent = inputValue;
+	deleteButton.textContent = "❌";
+
+	deleteButton.addEventListener("click", function () {
 		listElement.removeChild(liElement);
 	});
 
-	liElement.appendChild(deleteB);
-	list.appendChild(liElement);
+	liElement.appendChild(deleteButton);
+	listElement.appendChild(liElement);
 
 	inputElement.focus();
 	inputElement.value = "";
-})
+});
