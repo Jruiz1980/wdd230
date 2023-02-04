@@ -39,12 +39,17 @@
         <main>
             <section class="hero">
                 <h3>Hero with site name and call to action</h3>
+                <img class="hero-pic" src="#" alt="Victoria Ville">
             </section>
             <section class="event">
                 <h3>Event</h3>
             </section>
             <section class="weather">
                 <h3>Weather</h3>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/n2d17n79d92/guayaquil/?unit=us" data-label_1="GUAYAQUIL" data-label_2="Ecuador" data-theme="marine" >GUAYAQUIL Ecuador</a>
+                <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
             </section>
             <section class="news">
                 <h3>News Release</h3>
@@ -59,9 +64,13 @@
             </section>
         </main>
         <footer>
+            <div class="location">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4880.572643368421!2d-79.90201406705184!3d-2.067286479794719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d126709c0b701%3A0xd0cd834af963c324!2sUrbanizacion%20Victoria%20Club!5e0!3m2!1ses!2sec!4v1675523907510!5m2!1ses!2sec" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p>&copy; <span id="currentYear"></span> Victoria Chamber | Johnathan I. Ruiz 
+            </dov>
+            <div class="project">
+                <p>&copy; <span id="currentYear"></span> Victoria Chamber | Johnathan I. Ruiz
                     | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
+            </div>
         </footer>
         <script src="scripts/app.js"></script>
         <script src="scripts/btn.js"></script>
