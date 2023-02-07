@@ -113,3 +113,8 @@ section{
     color:#115B9C;
     text-align: center;
 }
+.event{
+    font-size:2em;
+    justify-content: center;
+    line-height: 1.5em;
+}
