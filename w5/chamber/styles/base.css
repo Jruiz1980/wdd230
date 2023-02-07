@@ -108,3 +108,8 @@ section{
 .logo-foot{
     object-fit: contain;
 }
+.event, .hero, .news, .spot, .join, .weather{
+    font-family:"Nunito", Verdana,Tahoma, sans-serif;
+    color:#115B9C;
+    text-align: center;
+}
