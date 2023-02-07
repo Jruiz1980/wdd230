@@ -6,8 +6,8 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 const eventSection = document.querySelector(".event");
 
 if (datefieldUK == Monday || Tuesday){
-eventSection
+eventSection;
 }
 else {
-    eventSection.style.display = "block"
+    eventSection.style.display = "block";
 }
