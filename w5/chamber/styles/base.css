@@ -114,6 +114,8 @@ section{
     text-align: center;
 }
 .event{
-    font-size:1.2em;
-    line-height: 1.5em;
+    display:grid;
+    font-size:1em;
+    line-height: 2em;
+    place-content: center;
 }
