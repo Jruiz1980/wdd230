@@ -5,7 +5,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 const eventSection = document.querySelector(".event");
 
-if (datefieldUK == 1 || 2){
+if (datefieldUK == 1 || datefieldUK == 2){
 eventSection;
 }
 else {
