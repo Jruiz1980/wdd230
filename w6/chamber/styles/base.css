@@ -86,6 +86,15 @@ main {
     justify-content: space-evenly;
     flex-direction: column;
 }
+main section figure.wdd230{
+    width:95%;
+    margin: 0 0 0 2%;
+    float:none;
+}
+main section figure.wdd230 img{
+    width:100%;
+    align-self: center;
+}
 section{
     background-color: #C2D7E6;
     height: 20em;
@@ -102,9 +111,6 @@ section{
     height: 33em;
     border:1px solid #115B9C;
 }   
-.hero-pic{
-    width:50%;
-}
 .logo-foot{
     object-fit: contain;
 }
