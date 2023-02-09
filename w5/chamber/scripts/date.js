@@ -5,9 +5,9 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 const eventSection = document.querySelector(".event");
 
-if (datefieldUK == 1 || datefieldUK == 2){
+if (now == 1 || now == 2){
 eventSection;
 }
 else {
-    eventSection.style.display = "block";
+    eventSection.style.display = "none";
 }
