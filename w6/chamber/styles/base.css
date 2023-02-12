@@ -100,12 +100,12 @@ main section figure.wdd230 img{
     grid-template-columns: repeat(2, 0.4fr);
     text-align-last: center;
 }
-.temp{
+.clime{
     display:grid;
     grid-template-rows:repeat(2, 1fr);
     font-weight: bold;
 }
-#temperature{
+.temperature{
     font-size:2rem;
 }
 section{
