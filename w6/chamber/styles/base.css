@@ -92,14 +92,32 @@ main section figure.wdd230{
     float:none;
 }
 main section figure.wdd230 img{
-    width:100%;
+    width:95%;
     align-self: center;
+}
+.winds, .chill{
+    display:grid;
+    grid-template-columns: repeat(2, 0.4fr);
+    text-align-last: center;
+}
+.temp{
+    display:grid;
+    grid-template-rows:repeat(2, 1fr);
 }
 section{
     background-color: #C2D7E6;
     height: 20em;
     width: 100%;
     margin:0.5rem;
+}
+.weatherlogo{
+    width:50%;
+    margin: 0 0 0 3%;
+    float:left;
+}
+.weatherlogo img{
+    width:75%;
+    align-self:center;
 }
 .spot{
     display:flex;

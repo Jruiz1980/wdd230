@@ -52,6 +52,18 @@
                 <figure class="weatherlogo">
                     <img src="images/weatherlogo.webp" alt="weather logo" width="40%">
                 </figure>
+                <div class="temp">
+                    <p id="temperature">77&deg; F</p>
+                    <p>Sunny and Showers</p>
+                </div>
+                <div class="winds">
+                    <p>Wind Speed:  </p>
+                    <p id="windSpeed">5 mph</p>
+                </div>
+                <div class="chill">
+                    <p>Wind Chill:  </p>
+                    <p><span id="windChill"></span>&deg; F</p>
+                </div>
                 
                 <!--a class="weatherwidget-io" href="https://forecast7.com/en/n2d17n79d92/guayaquil/?unit=us" data-label_1="GUAYAQUIL" data-label_2="Ecuador" data-theme="marine" >GUAYAQUIL Ecuador</a>
                 <script>
@@ -96,5 +108,6 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/btn.js"></script>
         <script src="scripts/date.js"></script>
+        <script scr="scripts/windchill.js"></script>
     </body>
 </html>
