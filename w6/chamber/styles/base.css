@@ -98,10 +98,12 @@ main section figure.wdd230 img{
 .weather{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:repeat(3, 1fr); 
 }
 .winds, .chill{
     grid-column:2/3;
-    text-align-last: left;
+    grid-row:3/4;
+    text-align-last: center;
 }
 .clime{
     grid-column:2/3 ;
@@ -117,14 +119,14 @@ section{
     margin:0.5rem;
 }
 .weatherlogo{
-    width:50%;
+    width:60%;
     margin: 0 0 0 3%;
     float:left;
     grid-column:1/2;
     grid-row:1/4;
 }
 .weatherlogo img{
-    width:75%;
+    width:85%;
     align-self:center;
 }
 .spot{
