@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Windchill</title>
-		<style>
-			#resultDiv {
+		<!--style>
+			#windChill{
 				margin-top:20px;
 				font-weight:bold;
 				font-size:25px;
@@ -20,34 +20,24 @@
 			input {
 				text-align:center;
 			}
-		</style>
-		<script type="text/javascript">
-			/* Defining Table
-			 * Input: two integers
-			 * Processing: calculate windchill from the two inputs
-			 * Output: The calculated windchill
-			 */
-			function doInputOutput() {};
-            
-				var tempF = parseFloat(document.getElementById("tempF").innerHTML);
-				var speed = parseFloat(document.getElementById("speed").innerHTML);
-				var windChillF = windChill(tempF,speed);
-				document.getElementById("resultDiv").innerHTML = windChillF;
-			
-			function windChill(tempF,speed) 
-            {
-				var windChill = 35.74 + 0.6215 * tempF - 35.75 * speed**0.16 + 0.4275 * tempF * speed**0.16;
-				return windChill.toFixed(0);
-			}
-		</script>
+		</style-->
+
 	</head>
 	<body>
-		<div id="form">
-			<h1>Calculate Windchill</h1>
-			<p>Enter a temperature and a wind speed, then click the button to calculate the windchill:</p>
-			<p id="tempF">77&deg; F</p>
-			<p id="speed">5 mph</p>
-		</div>
-		<div id="resultDiv">&deg; F</div>
+        <section class="weather_section">
+            <h3>Weather</h3>
+            <img src="images/weather_icon.png" alt="Weather Icon">
+            <p class="temperature">55&deg;F</p>
+            <p class="weather_time">Party Cloud</p>
+            <hr>
+            <div class="container_windspeed">
+                <p>Wind Speed: <span class="windSpeed">5</span> mph</p>
+            </div>
+            <div class="container_windchill">
+                <p>Wind Chill: <span class="windChill"></span>&deg; F</p>
+            </div>
+        </section>
+        <script src="scripts/scripts.js">
+		</script>
 	</body>
 </html>
