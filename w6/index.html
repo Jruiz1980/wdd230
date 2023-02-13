@@ -1,23 +1,54 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Weather</title>
-    <meta name="description" content="template">
-    <meta name="author" content="codepen">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-</head>
-
-    <body>
-    <p>Today's Weather
-        <ul class="good"> 
-            <li class="high">High: 50&deg; F</li>
-            <li>Low: 37&deg; F</li>
-            <li>Chance of Precipitation: 45%</li>
-            <li class="wSpeed">Wind: 12mph NW</li>
-            <li>Wind Chill: <span id="windChill"></span>&deg; F</li></ul></p>
-    
-    <script src="js/scripts.js"></script>
-    </body>
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Windchill</title>
+		<style>
+			#resultDiv {
+				margin-top:20px;
+				font-weight:bold;
+				font-size:25px;
+			}
+			body {
+				font-family:sans-serif;
+				background-color:#f9f9f9;
+				padding-top:10%;
+				padding-left:30%;
+				padding-right:30%;
+				text-align:center;
+			}
+			input {
+				text-align:center;
+			}
+		</style>
+		<script type="text/javascript">
+			/* Defining Table
+			 * Input: two integers
+			 * Processing: calculate windchill from the two inputs
+			 * Output: The calculated windchill
+			 */
+			function doInputOutput() 
+            {
+				var tempF = parseFloat(document.getElementById("tempF").value);
+				var speed = parseFloat(document.getElementById("speed").value);
+				var windChillF = windChill(tempF,speed);
+				document.getElementById("resultDiv").innerHTML = windChillF + "ºF";
+			}
+			function windChill(tempF,speed) 
+            {
+				var windChill = 35.74 + 0.6215 * tempF - 35.75 * speed**0.16 + 0.4275 * tempF * speed**0.16;
+				return windChill.toFixed(0);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="form">
+			<h1>Calculate Windchill</h1>
+			<p>Enter a temperature and a wind speed, then click the button to calculate the windchill:</p>
+			<p><input type="text" id="tempF" size="2"/>ºF</p>
+			<p><input type="text" id="speed" size="2"/>mph</p>
+			<p><button type="button" onclick="doInputOutput()">Wind Chill</button></p>
+		</div>
+		<div id="resultDiv"></div>
+	</body>
 </html>
