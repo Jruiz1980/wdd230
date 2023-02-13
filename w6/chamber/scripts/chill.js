@@ -15,3 +15,4 @@ function windChill(tempF, speed)
     var windChill = 35.74 + 0.6215 * tempF - 35.75 * speed**0.16 + 0.4275 * tempF * speed**0.16;
     return windChill.toFixed(0);
 }
+return windChill;
