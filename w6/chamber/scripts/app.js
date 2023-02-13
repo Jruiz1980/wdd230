@@ -12,4 +12,20 @@ function toggleMenu(){
     document.getElementById('hamburgerBtn').classList.toggle("open");
 }
 const x = document.getElementById('hamburgerBtn')
-x.onclick = toggleMenu;
+    x.onclick = toggleMenu;
+
+
+const datefieldUK = document.querySelector(".date"); 
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+    datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+const curr = new Date().getDay();
+const eventSection = document.querySelector(".event");
+if (curr == 1 || curr == 2)
+    {
+    eventSection;
+    }
+else {
+    eventSection.style.display = "none";
+    }
