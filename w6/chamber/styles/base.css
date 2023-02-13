@@ -104,7 +104,10 @@ main section figure.wdd230 img{
     display:grid;
     grid-template-rows:repeat(2, 1fr);
     font-weight: bold;
-    font-size:1.5rem;
+
+}
+.temperature{
+    font-size:2rem;
 }
 section{
     background-color: #C2D7E6;
