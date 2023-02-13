@@ -27,13 +27,13 @@
 			 * Processing: calculate windchill from the two inputs
 			 * Output: The calculated windchill
 			 */
-			function doInputOutput() 
-            {
-				var tempF = parseFloat(document.getElementById("tempF").value);
-				var speed = parseFloat(document.getElementById("speed").value);
+			function doInputOutput() {};
+            
+				var tempF = parseFloat(document.getElementById("tempF").innerHTML);
+				var speed = parseFloat(document.getElementById("speed").innerHTML);
 				var windChillF = windChill(tempF,speed);
-				document.getElementById("resultDiv").innerHTML = windChillF + "ºF";
-			}
+				document.getElementById("resultDiv").innerHTML = windChillF;
+			
 			function windChill(tempF,speed) 
             {
 				var windChill = 35.74 + 0.6215 * tempF - 35.75 * speed**0.16 + 0.4275 * tempF * speed**0.16;
@@ -45,10 +45,9 @@
 		<div id="form">
 			<h1>Calculate Windchill</h1>
 			<p>Enter a temperature and a wind speed, then click the button to calculate the windchill:</p>
-			<p><input type="text" id="tempF" size="2"/>ºF</p>
-			<p><input type="text" id="speed" size="2"/>mph</p>
-			<p><button type="button" onclick="doInputOutput()">Wind Chill</button></p>
+			<p id="tempF">77&deg; F</p>
+			<p id="speed">5 mph</p>
 		</div>
-		<div id="resultDiv"></div>
+		<div id="resultDiv">&deg; F</div>
 	</body>
 </html>
