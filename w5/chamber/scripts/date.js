@@ -5,7 +5,8 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 const eventSection = document.querySelector(".event");
 
-if (now == 1 || now == 2){
+const curr = new Date().getDay();
+if (curr == 1 || curr == 2){
 eventSection;
 }
 else {
