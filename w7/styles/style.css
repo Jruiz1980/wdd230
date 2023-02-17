@@ -10,7 +10,7 @@ main{
 #images{
     display:flex;
     flex-flow:column;
-    padding-bottom: 0.8em;
+    row-gap: 0.7em;
 }
 picture img[data-src] {
     filter: blur(0.2em);
