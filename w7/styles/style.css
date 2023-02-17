@@ -1,0 +1,22 @@
+html{
+    background-color: #03723e;
+}
+
+main{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(255, 255, 0, 0.801);
+    text-align: center;
+}
+#images{
+    display:flex;
+    flex-flow:column;
+    padding-bottom: 0.8em;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.8s;
+}
