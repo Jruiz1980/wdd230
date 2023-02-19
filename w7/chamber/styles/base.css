@@ -86,39 +86,43 @@ nav ul.open{display:block;}
     justify-content: space-evenly;
     flex-direction: column;
 }
-main section figure.wdd230{
+main section figure.wdd230 {
     width:95%;
     margin: 0 0 0 2%;
     float:none;
 }
-main section figure.wdd230 img{
+main section figure.wdd230 img {
     width:95%;
     align-self: center;
 }
-main section figure#hero-img{
-    width:50%;
+main section figure#hero-img {
+    width:100%;
     margin: auto;
     float:none;
 }
-main section figure#hero-img img{
-    width:60%;
+main section figure#hero-img img {
+    width:80%;
     align-self: center;
 }
-.weather{
+#hero-img {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+.weather {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:repeat(3, 1fr); 
 }
-.winds, .chill{
+.winds, .chill {
     grid-column:2/3;
     grid-row:3/4;
     text-align-last: center;
 }
-.clime{
+.clime {
     grid-column:2/3 ;
     font-weight: bold;
 }
-.temp{
+.temp {
     font-size: 2em;
 }
 section{

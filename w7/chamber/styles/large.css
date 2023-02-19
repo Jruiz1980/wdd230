@@ -23,8 +23,8 @@
         margin:1em;
     }
     #discover{
-        display:flex;
-        flex-flow:row;
+        display:grid;
+        grid-template-columns: 1fr;
         align-content: center;
     }
     .event{
@@ -51,4 +51,5 @@
         grid-column:2/4;
         grid-row:3/4;
     }
+    
 }
