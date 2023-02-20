@@ -8,8 +8,8 @@ main {
     grid-column:1fr;
 }
 iframe {
-    width:600px;
-    height:340px;
+    width:37.5em;
+    height:21.25em;
 }
 header {
     margin: 1em;
