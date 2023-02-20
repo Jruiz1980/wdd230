@@ -1,10 +1,9 @@
 html{
-    margin: auto;
     background-color:azure;
     display:grid;
 }
 main {
-    margin: 10em;
+    margin: 1em;
     align-content: center;
     grid-column:1fr;
 }
