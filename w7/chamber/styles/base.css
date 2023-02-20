@@ -95,19 +95,6 @@ main section figure.wdd230 img {
     width:95%;
     align-self: center;
 }
-main section figure#hero-img {
-    width:100%;
-    margin: auto;
-    float:none;
-}
-main section figure#hero-img img {
-    width:80%;
-    align-self: center;
-}
-#hero-img {
-    opacity: 1;
-    filter: alpha(opacity=50);
-}
 .weather {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -164,9 +151,27 @@ section{
     line-height: 2em;
     place-content: center;
 }
+/*Discover site*/
+main section figure#hero-img img {
+    width:100vw;
+
+}
+main section figure#hero-img {
+    width:40%;
+    margin:0%;
+    padding:0%;
+    grid-row:1/2;
+}
+#hero-img {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
 #discover{
-    display:flex;
-    background-color:#C2D7E6 ;
+    display:grid;
+    background-color:#C2D7E6;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
 }
 picture img[data-src] {
     filter: blur(0.3em);
@@ -174,4 +179,7 @@ picture img[data-src] {
 picture img {
     filter: blur(0em);
     transition: filter 1s;
+}
+#loading{
+
 }
