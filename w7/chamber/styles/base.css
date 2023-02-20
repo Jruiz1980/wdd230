@@ -153,14 +153,12 @@ section{
 }
 /*Discover site*/
 main section figure#hero-img img {
-    width:100vw;
-
+    width:95vw;
 }
 main section figure#hero-img {
     width:40%;
     margin:0%;
     padding:0%;
-    grid-row:1/2;
 }
 #hero-img {
     opacity: 1;
