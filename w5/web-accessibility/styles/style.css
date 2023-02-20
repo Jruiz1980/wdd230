@@ -1,6 +1,10 @@
 html{
-margin: 60em;
-background-color:azure;
+    margin: 30rem;
+    background-color:azure;
+    display:grid;
+}
+main {
+    align-content: center;
 }
 header {
     margin: 2em;
