@@ -4,6 +4,7 @@ html{
     display:grid;
 }
 main {
+    margin: 10em;
     align-content: center;
     grid-column:1fr;
 }
