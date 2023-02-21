@@ -38,6 +38,9 @@ header{
     max-width: 10rem;
     padding: 1rem;
 }
+.project{
+    grid-row:2/3;
+}
 .all{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
@@ -86,12 +89,12 @@ nav ul.open{display:block;}
     justify-content: space-evenly;
     flex-direction: column;
 }
-main section figure.wdd230 {
+#main section figure.wdd230 {
     width:95%;
     margin: 0 0 0 2%;
     float:none;
 }
-main section figure.wdd230 img {
+#main section figure.wdd230 img {
     width:95%;
     align-self: center;
 }
@@ -139,6 +142,8 @@ section{
 }   
 .logo-foot{
     object-fit: contain;
+    grid-column:2/3;
+    justify-self:center;
 }
 .event, .hero, .news, .spot, .join, .weather{
     font-family:"Nunito", Verdana,Tahoma, sans-serif;
@@ -152,28 +157,40 @@ section{
     place-content: center;
 }
 .location iframe{
-    width: 15.625rem;
-    height:12.5rem; 
+    width: 10rem;
+    height:10rem; 
+}
+.location{
+    grid-column:3/4;
+    align-self:center;
+    justify-self: center;
 }
 /*Discover site*/
 /*________________________________________________________________________*/
 #index{
-    display: grid;
-    height:10vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    background:#C2D7E6;
 }
-main section picture#hero-img img {
+#discover{
+    display: grid;
+    background-color:#C2D7E6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+#discover div picture#hero-img img {
     min-width: 60vw;
     max-width: 95vw;
 }
-main section picture#hero-img {
+#discover div picture#hero-img {
     margin:0%;
     padding:0%;
-    justify-items: center;
 }
 /*Text in hero picture*/
-#hero-img {
+#hero{
     position:relative;
     display:inline-block;
 }
@@ -183,22 +200,25 @@ main section picture#hero-img {
     left:50%;
     transform: translate(-50%, -50%);
     padding:2em;
-    background-color:#C2D7E6;
-    color:#115B9C;
+    color:#C2D7E6;
     font-family: "Lato", Helvetica, sans-serif;
-    font-size:1.5em;
+    font-size:3em;
     border-radius:5%;
     font-weight: bold;
 }
-#discover{
-    background-color:#C2D7E6;
+.intro{
+    text-align: center;
+    font-family:"Nunito", Verdana,Tahoma, sans-serif;
+    font-size:1.2em;
+    color:#115B9C;
+    line-height:1.2em;
 }
+
 picture img[data-src] {
-    filter: blur(0.3em);
+    filter: blur(0.5em);
 }
 picture img {
     filter: blur(0em);
-    transition: filter 1s;
-}
-#loading{
+    transition: filter 1.5s;
+    max-width: 80%;
 }
