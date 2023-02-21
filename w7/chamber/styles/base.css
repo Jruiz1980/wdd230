@@ -222,3 +222,7 @@ picture img {
     transition: filter 1.5s;
     max-width: 80%;
 }
+#loading{
+    color:#115B9C;
+    font-family:"Nunito", Verdana,Tahoma, sans-serif;
+}
