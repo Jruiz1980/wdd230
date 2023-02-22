@@ -216,6 +216,10 @@ section{
     font-size:1.2em;
     color:#115B9C;
     line-height:1.2em;
+    font-weight: bold;
+}
+.intro h4{
+    color:rgba(0, 0, 255, 0.719)
 }
 picture img[data-src] {
     filter: blur(0.5em);
@@ -228,4 +232,5 @@ picture img {
 #loading{
     color:#115B9C;
     font-family:"Nunito", Verdana,Tahoma, sans-serif;
+    font-weight: bold;
 }
