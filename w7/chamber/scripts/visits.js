@@ -3,7 +3,6 @@
 
 //Varible to hold the visits display
 const disVisits = document.querySelector("#visit");
-const aveVisits = document.querySelector("#aveVisits");
 const dayVisits = document.querySelector("#daysVisit");
 
 //Varible to hold the current date
@@ -25,9 +24,6 @@ let numberVisits = Number(window.localStorage.getItem("visits-si"));
 //Get the local date varible in the local storage
 let pastTodayDate = Number(window.localStorage.getItem("pastD-si"));
 
-//Average use a day variable
-let aveUseaDay = 0;
-
 //Get the local daysPlus varible in the local storage
 daysPlus = Number(window.localStorage.getItem("plusDay-si"));
 
@@ -48,20 +44,11 @@ if (numberVisits !== 0){
 
         //Display Days
         dayVisits.innerText = daysPlus;
-
-        //Compute the average
-        aveUseaDay = numberVisits / daysPlus;
-        //Make sure to round
-        aveVisits.innerText = Math.round(aveUseaDay);
     }
 
     else{
         //Display Days
         dayVisits.innerText = daysPlus;
-        //Compute the average
-        aveUseaDay = numberVisits / daysPlus;
-        //Make sure to round
-        aveVisits.innerText = Math.round(aveUseaDay); 
     }
 } 
 
@@ -71,11 +58,6 @@ else{
     localStorage.setItem("plusDay-si", 1);
     //Days visits
     dayVisits.innerText = "1";
-
-    //Compute the average
-    aveUseaDay = numberVisits / 1;
-    //Make sure to round
-    aveVisits.innerText = Math.round(aveUseaDay); 
 }
 
 //Make the visits added by one
