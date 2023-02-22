@@ -121,6 +121,9 @@ section{
     height: 20em;
     width: 100%;
     margin:0.5rem;
+    font-family:"Nunito", Verdana, sans-serif;
+    color:#115B9C;
+    font-weight: bold;
 }
 .weatherlogo{
     width:80%;
