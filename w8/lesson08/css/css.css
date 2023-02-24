@@ -1,7 +1,7 @@
 caption {
     padding: 10px;
     caption-side: bottom;
-    border:none;
+    border-collapse:collapse;
 }
 body {
     display:flex;
@@ -18,10 +18,13 @@ table {
     text-align: center;
     border-collapse: collapse;
     box-shadow: 10px 10px 10px #0000009c;
+    border: solid 0.002rem #0000002a;
+}
+th, td{
+    border: solid 0.002rem #0000002a;
 }
 table *{
     padding:1em;
-    border: solid 0.002rem #0000002a;
 }
 thead, .first{
     background-color: #000000d0;
