@@ -22,11 +22,18 @@ table * {
     border: solid 0.002rem #0000002a;
 }
 thead, .first{
-    background-color: #000000b0;
+    background-color: #000000d0;
 }
 thead {
     font-size: 1.7rem;
     color:rgb(239, 240, 221);
+}
+.title {
+    background-color: #6f7980;
+    color: rgb(239, 240, 221);
+}
+.col{
+    font-weight: bold;
 }
 tbody tr {
     background-color: #e7ffed;
