@@ -1,7 +1,6 @@
 caption {
     padding: 10em;
     caption-side: bottom;
-    border-collapse:collapse;
 }
 body {
     display:flex;
