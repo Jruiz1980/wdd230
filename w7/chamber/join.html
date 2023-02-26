@@ -1,47 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html id="disc" lang="en-US">
     <head>
         <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
             <meta name="author" content="Johnathan I. Ruiz">
-            <meta name="description" content="Victoria Chamber of Commerce Planning Document">
+            <meta name="description" content="Victoria Chamber of Commerce Discovery">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Open+Sans&display=swap">
             <link rel="stylesheet" href="styles/normalize.css">
             <link rel="stylesheet" href="styles/base.css">
             <link rel="stylesheet" href="styles/medium.css">
             <link rel="stylesheet" href="styles/large.css">
-            <title>Victoria Chamber of Commerce</title>
+            <title>Discovery</title>
     </head>
-    <body>
+    <body id="index">
         <header>
-            <div class="page-logo">
-                <img src="images/logo.png" alt="Victoria Chamber of Commerce">
-            </div>
-            <div class="page-header">
-                <h1>Victoria</h1>
-                <h3>Chamber of Commerce</h3>
-            </div>
+            <nav>
+                <div class="page-logo">
+                    <img src="images/logo.png" alt="Victoria Chamber of Commerce">
+                </div>
+                <div class="page-header">
+                    <h1>Victoria</h1>
+                    <h3>Chamber of Commerce</h3>
+                </div>
+                <button id="hamburgerBtn"><span>&equiv;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        <div class="date"></div>
         </header>
-        <nav>
-            <button id="hamburgerBtn"><span>&equiv;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
         <main>
             
         </main>
         <footer>
-            <p>&copy; <span id="currentYear"></span> Victoria Chamber | Johnathan I. Ruiz 
-                | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
+            <section id="down">
+                <div class="all">
+                    <div class="contact-info">
+                        <h3>Victoria Chamber</h3>
+                        <p>Main St. N°511 Rivera Building Third Floor</p>
+                        <p>info@victoria.chamber.ec</p>
+                        <p>Phone +593 987 654 3210</p>
+                        <p>Victoria - Ecuador</p>
+                    </div>
+                    <div class="logo-foot">
+                        <img src="images/logo.png" alt="Victoria Chamber of Commerce">
+                    </div>
+                    <div class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31897.793394353863!2d-79.898264!3d-2.066245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d126709c0b701%3A0xd0cd834af963c324!2sUrbanizacion%20Victoria%20Club!5e0!3m2!1ses!2sec!4v1677050672952!5m2!1ses!2sec" 
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </dov>
+                </div>
+                <div class="project">
+                    <p>&copy; <span id="currentYear"></span> Victoria Chamber | Johnathan I. Ruiz
+                        | WDD 230 Project | Last Modification: <span id="lastModified"></span></p>
+                </div>
+            </section>
         </footer>
         <script src="scripts/app.js"></script>
-        <script src="scripts/btn.js"></script>
+        <script src="scripts/picture.js"></script>
+        <script src="scripts/visits.js"></script>
     </body>
 </html>
