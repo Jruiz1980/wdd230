@@ -8,7 +8,7 @@ const x = docuemnt.querySelector(".02");
 const y = docuemnt.querySelector(".03");
 const z = document.querySelector(".04");
 
-switch (membership){
+switch (document.querySelector("membership")){
     case w:
         a
         break;
