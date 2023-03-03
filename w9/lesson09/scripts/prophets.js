@@ -14,11 +14,11 @@ const displayProphets = (prophets) => {
       // Create elements to add to the div.cards element
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let birth = document.createElement('h4');
-        let place = document.createElement('h4');
-        let children = document.createElement('h4');
-        let prophetYears = document.createElement(`h4`)
-        let death = document.createElement('h4');
+        let birth = document.createElement('p');
+        let place = document.createElement('p');
+        let children = document.createElement('p');
+        let prophetYears = document.createElement('p')
+        let death = document.createElement('p');
         let portrait = document.createElement('img');
 
         // Build the h2 content out to show the prophet's full name - finish the template string
@@ -27,6 +27,7 @@ const displayProphets = (prophets) => {
         place.textContent = `Place: ${prophet.birthplace}`;
         children.textContent = `Children: ${prophet.numofchildren}`;
         prophetYears.textContent = `Prophet Years: ${prophet.length}`;
+        death.textContent = `Death: ${prophet.death}`;
 
         // Build the image portrait by setting all the relevant attribute
         portrait.setAttribute('src', prophet.imageurl);
@@ -45,4 +46,4 @@ const displayProphets = (prophets) => {
         card.appendChild(death);
         cards.appendChild(card);
     }) // end of forEach loop
-} // end of function expression
+} // end of function expression*/
