@@ -12,6 +12,7 @@
     }
     p{
         font-family:Verdana, Helvetica, sans-serif;
+        font-weight:bold;
     }
     .cards {
         display: grid;
