@@ -25,7 +25,7 @@
     img {
         max-width: 90%;
         margin: 1rem;
-        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.8);
     
     }
     footer{
@@ -46,7 +46,7 @@
     img {
         max-width: 12.5rem;
         align-items:center;
-        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.8);
     }
 }
 
@@ -60,6 +60,6 @@
 
     img {
         max-width: 18.75rem;
-        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.8);
     }
 }
