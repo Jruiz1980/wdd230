@@ -47,18 +47,18 @@ const displayCompanies = (companies) => {
         // Build div with description
         let address = document.createElement("p");
         let phone = document.createElement("p");
-        let website = document.createElement("a");
-        website.setAttribute("href", company.src);
+        let url = document.createElement("a");
+        url.setAttribute("href", company.src);
 
         // Set description content
         address.textContent = `${company.address}`
         phone.textContent = `${company.phone}`
-        website.textContent = `${company.website}`
+        url.textContent = `${company.url}`
 
         // Append the paragraphs to div
         div.appendChild(address);
         div.appendChild(phone);
-        div.appendChild(website);
+        div.appendChild(url);
     
         // Setting image attributes
         logo.setAttribute('src', company.imageurl);
@@ -96,15 +96,15 @@ const listCompanies = (companies) => {
         let phone = document.createElement("td");
         let tblWebsite = document.createElement("td");
         
-        let website = document.createElement("a");
-        tblWebsite.appendChild(website);
+        let url = document.createElement("a");
+        tblWebsite.appendChild(url);
 
         // Set td content
         name.textContent = `${company.name}`;
         address.textContent = `${company.address}`;
         phone.textContent = `${company.phone}`;
-        website.textContent = `${company.website}`;
-        website.setAttribute("href", company.src);        
+        url.textContent = `${company.website}`;
+        url.setAttribute("href", company.src);        
 
         // Append the td elements to row
         row.appendChild(name);
