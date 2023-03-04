@@ -94,23 +94,23 @@ const listCompanies = (companies) => {
         let name = document.createElement('td');
         let address = document.createElement("td");
         let phone = document.createElement("td");
-        let tblWebsite = document.createElement("td");
+        let tblurl = document.createElement("td");
         
         let url = document.createElement("a");
-        tblWebsite.appendChild(url);
+        tblurl.appendChild(url);
 
         // Set td content
         name.textContent = `${company.name}`;
         address.textContent = `${company.address}`;
         phone.textContent = `${company.phone}`;
-        url.textContent = `${company.website}`;
-        url.setAttribute("href", company.src);        
+        url.textContent = `${company.url}`;
+        url.setAttribute("href", company.url);        
 
         // Append the td elements to row
         row.appendChild(name);
         row.appendChild(address);
         row.appendChild(phone);
-        row.appendChild(tblWebsite);
+        row.appendChild(tblurl);
     
         // Append the row to tbody
         tbody.appendChild(row);
@@ -128,7 +128,8 @@ const gallery = document.querySelector("#gallery-btn");
 const list = document.querySelector("#list-btn");
 
 // Gallery Directory
-gallery.addEventListener("click", function(){
+gallery.addEventListener("click", 
+    function(){
     list.removeAttribute("class");
     gallery.setAttribute("class","active");
 
@@ -141,7 +142,8 @@ gallery.addEventListener("click", function(){
 });
 
 // List Directory
-list.addEventListener("click", function(){
+list.addEventListener("click", 
+    function(){
     gallery.removeAttribute("class");
     list.setAttribute("class","active");
 
