@@ -1,25 +1,6 @@
 "use strict";
 const url ="https://jruiz1980.github.io/wdd230/w7/chamber/scripts/data.json";
 let directory = "";
-/*const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}*/
-// Function to fetch data using async/await
 async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
