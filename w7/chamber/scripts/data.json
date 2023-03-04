@@ -1,0 +1,67 @@
+{
+    "enterprises":[
+        {
+            "name": "Sweet & Coffee",
+            "address": "Av. León Febres Cordero Ribadeneyra y E486",
+            "phone": "(+593 4) 602-2900",
+            "url": "http://www.sweetandcoffee.com.ec/",
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/sweet.png"
+        },
+        {
+            "name": "Marathon Sport",
+            "address": "km 10.5 via la aurora avenida principal",
+            "phone": "1 800 - 627284",
+            "url": "https://www.marathon.store/ec/",
+            "imageurl": ""
+        },
+        {
+            "name": "Hipódromo Nacional Miguel Salem Dibo",
+            "address": "Cdla. El Cortijo Mz530-Mz550",
+            "phone": "(+593 4) 502 6548",
+            "url": "https://www.facebook.com/Ecuahipodromo/?locale=es_LA",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        },
+        {
+            "name": "",
+            "address": "",
+            "phone": "",
+            "url": "",
+            "imageurl": ""
+        }
+    ]
+}
