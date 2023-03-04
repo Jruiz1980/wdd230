@@ -10,37 +10,37 @@
         {
             "name": "Marathon Sport",
             "address": "km 10.5 via la aurora avenida principal",
-            "phone": "1 800 - 627284",
+            "phone": "+1 800 - 627284",
             "url": "https://www.marathon.store/ec/",
-            "imageurl": ""
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/marathonjpg"
         },
         {
             "name": "Hipódromo Nacional Miguel Salem Dibo",
             "address": "Cdla. El Cortijo Mz530-Mz550",
-            "phone": "(+593 4) 502 6548",
+            "phone": "(+593 4) 502-6548",
             "url": "https://www.facebook.com/Ecuahipodromo/?locale=es_LA",
-            "imageurl": ""
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/hipo.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "imageurl": ""
+            "name": "Budget Rent a Car",
+            "address": "Aeropuerto Inter. José Joaquín De Olmedo",
+            "phone": "(+593 2) 382-2340 Ext. 135",
+            "url": "https://www.budget.com.ec/Inicio",
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/budget.jpg"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "imageurl": ""
+            "name": "i-NautiX Experiencias Náuticas",
+            "address": "Los Helechos Sector 13, Mz K 12-17, Durán",
+            "phone": "(+593) 95 894 8759",
+            "url": "https://inautix.ec/web/site/home#",
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/inautix.png"
         },
         {
-            "name": "",
-            "address": "",
-            "phone": "",
-            "url": "",
-            "imageurl": ""
+            "name": "Hotel del Parque",
+            "address": "Av. Rio Esmeraldas, Samborondón",
+            "phone": "(+593 4) 372-5260",
+            "url": "https://www.hoteldelparquehistorico.com/",
+            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/hotel.png"
         },
         {
             "name": "",
