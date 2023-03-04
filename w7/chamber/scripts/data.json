@@ -4,15 +4,15 @@
             "name": "Sweet & Coffee",
             "address": "Av. León Febres Cordero Ribadeneyra y E486",
             "phone": "(+593 4) 602-2900",
-            "url": "www.sweetandcoffee.com.ec/",
+            "url": "https://www.sweetandcoffee.com.ec/",
             "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/sweet.png"
         },
         {
             "name": "Marathon Sport",
             "address": "km 10.5 via a La Aurora",
             "phone": "(+593 4) 362-7284",
-            "url": "www.marathon.store/ec/",
-            "imageurl": "https://jruiz1980.github.io/wdd230/w7/chamber/images/marathon.png"
+            "url": "https://www.marathon.store/ec/",
+            "imageurl": "jruiz1980.github.io/wdd230/w7/chamber/images/marathon.png"
         },
         {
             "name": "Hipódromo Nacional Miguel Salem Dibo",
