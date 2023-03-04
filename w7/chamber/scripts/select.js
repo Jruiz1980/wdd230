@@ -1,6 +1,6 @@
 "use strict";
-const requestURL ="https://jruiz1980.github.io/wdd230/w7/chamber/scripts/data.json";
-
+const url ="https://jruiz1980.github.io/wdd230/w7/chamber/scripts/data.json";
+let directory = "";
 /*const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");

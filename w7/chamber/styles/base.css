@@ -235,103 +235,93 @@ picture img {
     font-weight: bold;
 }
 /*-------------------------------------Directory-------------------------------------*/
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-main {
-	margin: 0 auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	max-width: 700px;
-	background-color: #eee;
-	font-family: Roboto, Helvetica, sans-serif;
+.dir-main {
+    text-align: center;
+    margin: 2em auto;
 }
 
 .menu {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color: #bbb;
-	text-align: center;
+    background:#C2D7E6;
+    background-color: #C2D7E6;
+    padding: 10px;
+    margin: 5px 10px;
 }
 
-.menu button {
-	padding: 1rem;
-	font-weight: 700;
+.gallery{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5px;
+    margin: 10px;
 }
 
-article,
-section {
-	margin: 0.5rem;
+.table-dir {
+    display: block;
 }
 
-section {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color: #ccc;
+table {
+    border-collapse: collapse;
+    margin: 10px;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
+tbody tr:nth-child(even){
+    background-color: rgba(244, 158, 76, 15%);
 }
 
-.grid section {
-	flex-direction: column;
-	text-align: center;
+tr {
+    height: 60px;
 }
 
-.grid section > * {
-	margin: 0.1rem;
+td {
+    padding: 5px;
 }
 
-.grid h3 {
-	font-family: "Caveat", cursive;
+td a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0B3954;
+    text-overflow: ellipsis;
 }
 
-.list {
-	display: flex;
-	flex-direction: column;
+td a:hover {
+    color: #AB3428;
+    transition: 0.5s;
 }
 
-.list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
+td {
+    font-size: 0.55rem;
 }
 
-.list section > * {
-	margin: 0 1rem;
+td:first-child{
+    width: 20%;
 }
 
-.list section img {
-	display: none; /* smaller viewports only */
+td:nth-child(2){
+    width: 35%;
 }
 
-.list section h3 {
-	font-size: 1rem;
-	font-family: Roboto, Helvetica, sans-serif;
+td:nth-child(3){
+    width: 15%;
 }
 
-.list section:nth-child(even) {
-	background-color: #bed;
+td:nth-child(4){
+    width: 30%;
 }
 
-section h3 {
-	font-size: 1.5rem;
+.dir-sect {
+    display: block;
+    grid-column: auto;
 }
 
-section a {
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 0.9rem;
+.display-btns button {
+    border: none;
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin: 5px;
 }
 
-img {
-	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+.display-btns button:hover, .display-btns button.active{
+    background-color: #AB3428;
+    color: white;
+    font-weight: bold;
+    transition: 1.5s;
 }
