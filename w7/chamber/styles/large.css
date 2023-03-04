@@ -63,4 +63,15 @@
     #loading{
         grid-column:1/4;
     }
+    .directory-main {
+        margin: 2em auto;
+    }
+
+    .gallery {
+        grid-template-columns: 33% 33% 33%;
+    }
+    
+    td {
+        font-size: 16px;
+    }
 }

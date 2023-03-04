@@ -24,4 +24,12 @@
         font-size:2em;
         line-height: 1em;
     }
+    .gallery {
+        grid-template-columns: 50% 50%;
+    }
+
+    td {
+        font-size: 0.8rem;
+    }
+
 }
