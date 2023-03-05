@@ -20,6 +20,7 @@ const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
     datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
+document.addEventListener("DOMContentLoaded", function () {
 const curr = new Date().getDay();
 const eventSection = document.querySelector(".event");
 if (curr == 1 || curr == 2)
@@ -27,5 +28,6 @@ if (curr == 1 || curr == 2)
     eventSection;
     }
 else {
-    eventSection.hidden = true;
+    eventSection.style.display="none";
     }
+});
