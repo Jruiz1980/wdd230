@@ -27,5 +27,5 @@ if (curr == 1 || curr == 2)
     eventSection;
     }
 else {
-    eventSection.style.display = "none";
+    eventSection.hidden = true;
     }
