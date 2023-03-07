@@ -250,7 +250,6 @@ picture img {
 }
 .free h2{
     color: navy;
-    margin: 0 0 1rem 0;
 }
 .bronze h2{
     color:rgb(199, 163, 2);
@@ -294,11 +293,14 @@ form label input{
     max-width: 20rem;
     padding: .5rem;
 }
+form fieldset select {
+    line-height: 1rem;
+}
 form label.top input:required{
     border:red solid 2px; 
 }
 form label.top input:required:valid{
-    border: green solid 6px;
+    border: green solid 2px;
 }
 /*-------------------------------------Directory-------------------------------------*/
 .dir-main {
