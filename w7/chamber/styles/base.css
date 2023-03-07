@@ -285,14 +285,14 @@ form fieldset {
     border-radius: 10px;
     padding:.5rem 2%;
 }
-form label.top, form label.mid{
+form label input{
     display:block;
     padding-top: 1rem;
     color:#292929;
     font-size:1.2rem;
     width:100%;
     max-width: 20rem;
-    padding: .75rem;
+    padding: .5rem;
 }
 form label.top input:required{
     border:red solid 2px; 
