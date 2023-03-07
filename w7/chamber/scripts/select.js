@@ -29,7 +29,7 @@ const displayCompanies = (companies) => {
         let address = document.createElement("p");
         let phone = document.createElement("p");
         let url = document.createElement("a");
-        url.setAttribute("href", company.src);
+        url.setAttribute("href", company.url);
 
         // Set description content
         address.textContent = `${company.address}`
