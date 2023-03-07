@@ -235,10 +235,10 @@ picture img {
     font-weight: bold;
 }
 /*---------------------------------------JOIN---------------------------*/
-.join-us{
+#join-us{
     display:flex;
     flex-flow:column;
-    text-align: center;
+    text-align: left;
     align-self: center;
     justify-self: center;
     margin:2em;
@@ -264,64 +264,32 @@ picture img {
     color:gold;
     -webkit-text-stroke:0.5px #0B3954;
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+form label.top input, form label.top select{
+    display:block;
+    font-size:1rem;
+    border:solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color:#555;
+    width:100%;
+    max-width: 20rem;
 }
-section {
-    margin: 0.25rem;
-    padding: 0.35rem;
-    background-color: #eee;
-    border: 1px solid #bbb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+form legend{
+    color:#115B9C;
+    margin:0 1rem;
+    padding: 0 .5rem
 }
-section > p {
-    min-height: 60px;
+form fieldset {
+    margin: 2rem 0;
+    border:1px 1px solid #115b9c;
+    border-radius: 10px;
+    padding:.5rem 2%;
 }
-.caption {
-    position: absolute;
-    top: 1.5rem;
-    right: 2rem;
-    border: 1px solid #ccc;
-    background-color: lightyellow;
-    padding: 0.25rem;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1rem 1fr;
-}
-
-.caption h6 {
-    position: absolute;
-    top: -2.3rem;
-    left: -0.25rem;
-}
-
-.caption > div {
-    width: 0.75rem;
-    height: 0.75rem;
-    border: 1px solid #bbb;
-}
-
-.caption > p {
-    font-size: 0.75rem;
-}
-
-.most {
-    background-color: #bed;
-}
-
-.fav {
-    background-color: skyblue;
-}
-
-.own {
-    background-color: rosybrown;
-}
-
-.un {
-    list-style: none;
+form label.top, form label.mid{
+    display:block;
+    padding-top: 1rem;
+    color:#292929;
+    font-size:1.2rem;
 }
 /*-------------------------------------Directory-------------------------------------*/
 .dir-main {
