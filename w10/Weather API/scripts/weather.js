@@ -1,14 +1,8 @@
-// Get Year
-const year = new Date().getFullYear();
-document.querySelector("#copyright-year").textContent = `© ${year}`;
-
-// Last Update
-document.querySelector("#last-update").textContent = `Last Updated: ${document.lastModified}`
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=3f3f013e4fed008181e53a4db70ffb93units=imperial';
+const url = 'http://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=3f3f013e4fed008181e53a4db70ffb93&units=imperial';
 
 async function apiFetch() {
     try {
