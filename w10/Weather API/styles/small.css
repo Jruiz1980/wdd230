@@ -1,0 +1,14 @@
+html{
+    display:flex;
+    background-color:beige;
+    text-align: center;
+    color: #794400;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
+h1 {
+    text-align: center;
+    align-self: center;
+}
