@@ -1,5 +1,5 @@
 html{
-    display:flex;
+    display:grid;
     background-color:beige;
     text-align: center;
     color: #794400;
