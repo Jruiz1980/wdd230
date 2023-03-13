@@ -2,6 +2,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const windSpeed = document.querySelector('#windSpeed');
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Guayaquil&units=imperial&appid=3f3f013e4fed008181e53a4db70ffb93';
 
 async function apiFetch() {
@@ -30,4 +31,5 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    windSpeed.textContent = weatherData.wind.speed.toFixed(0);
 }
