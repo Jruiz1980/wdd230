@@ -162,7 +162,10 @@ section{
     color:#C2D7E6;
     text-decoration: none;
     padding:1.5rem;
+    padding-left: 3rem;
+    padding-right:3rem;
     border-radius: 0.5rem;
+    
 }
 .join h3{
     display: grid;
