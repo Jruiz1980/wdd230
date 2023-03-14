@@ -9,7 +9,8 @@
     }
     #main section figure.wdd230 img {
         width:60%;
-        right:50%;
+        justify-items: center;
+        margin-left:10rem;
     }
     .hero {
         height:95%;
