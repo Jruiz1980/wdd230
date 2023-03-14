@@ -157,6 +157,7 @@ section{
 .weatherlogo img{
     width:85%;
 }
+/*------Join us-----------*/
 .join h3 a{
     background-color:#115B9C;
     color:#C2D7E6;
@@ -178,6 +179,7 @@ section{
     color:#115B9C;
     border:solid #115B9C;
 }
+/*-------spot-------*/
 .spot{
     display:flex;
     flex-direction:column;
