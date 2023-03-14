@@ -91,14 +91,12 @@ nav ul.open{display:block;}
     flex-direction: column;
 }
 #main section figure.wdd230 {
-    min-width:40%;
+    min-width:50%;
     margin: 0 0 0 2%;
     float:none;
 }
 #main section figure.wdd230 img {
-    width:50%;
-    align-self: center;
-    justify-self: center;
+    width:70%;
 }
 figure h3 {
     position:absolute;
