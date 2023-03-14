@@ -8,5 +8,5 @@ if (temp <=50 && wSpeed > 3){
 document.querySelector("#windChill").innerHTML= windChill;
 }
 else{
-    document.querySelector("#windChill").innerHTML=NaN;
+    document.querySelector("#windChill").innerHTML='N/A';
 }
