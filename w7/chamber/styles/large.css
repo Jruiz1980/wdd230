@@ -16,6 +16,12 @@
         padding: 0.5rem 1rem;
         font-size:1.2em;
     }
+    #main section figure.wdd230 {
+        width:90%;
+    }
+    #main section figure.wdd230 img {
+        width:90%;
+    }
     #main{
         display:grid;
         grid-template-columns:repeat(4, 1fr);

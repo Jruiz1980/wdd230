@@ -91,13 +91,14 @@ nav ul.open{display:block;}
     flex-direction: column;
 }
 #main section figure.wdd230 {
-    width:90%;
+    width:60%;
     margin: 0 0 0 2%;
     float:none;
 }
 #main section figure.wdd230 img {
     width:90%;
     align-self: center;
+    justify-self: center;
 }
 figure h3 {
     position:absolute;
@@ -107,7 +108,7 @@ figure h3 {
     padding:0.8em;
     color:#C2D7E6;
     font-family: "Lato", Helvetica, sans-serif;
-    font-size:2em;
+    font-size:1em;
     border-radius:5%;
     font-weight: bold;
     line-height: 2rem;

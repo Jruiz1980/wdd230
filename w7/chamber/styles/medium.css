@@ -4,6 +4,15 @@
         display:grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    #main section figure.wdd230 {
+        width:60%;
+    }
+    #main section figure.wdd230 img {
+        width:60%;
+    }
+    figure h3 {
+        font-size:medium;
+    }
     section {
         grid-column:1/3;
     }
