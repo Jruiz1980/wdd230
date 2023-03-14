@@ -157,6 +157,24 @@ section{
 .weatherlogo img{
     width:85%;
 }
+.join h3 a{
+    background-color:#115B9C;
+    color:#C2D7E6;
+    text-decoration: none;
+    padding:1.5rem;
+    border-radius: 0.5rem;
+}
+.join h3{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    transform: translate(1%, 150%);
+}
+.join h3 a:hover {
+    background-color: #C2D7E6;
+    color:#115B9C;
+    border:solid #115B9C;
+}
 .spot{
     display:flex;
     flex-direction:column;
