@@ -61,11 +61,13 @@
         grid-column:2/3;
         grid-row:1/2;
         padding:2rem;
+        margin-left:6rem;
     }
     .location{
         grid-column:2/3;
         grid-row:2/3;
-        padding:2.5rem;
+        padding:2rem;
+        margin-left:6rem;
     }
     .project{
         grid-column:1/2;
