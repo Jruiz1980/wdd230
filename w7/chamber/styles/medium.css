@@ -46,6 +46,9 @@
     td {
         font-size: 0.8rem;
     }
+    #down {
+        height:auto;
+    }
     .all {
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -57,13 +60,15 @@
     .logo-foot {
         grid-column:2/3;
         grid-row:1/2;
+        padding:2rem;
     }
     .location{
         grid-column:2/3;
         grid-row:2/3;
+        padding:2.5rem;
     }
     .project{
         grid-column:1/2;
-        grid-row:3/4;
+        grid-row:2/3;
     }
 }
