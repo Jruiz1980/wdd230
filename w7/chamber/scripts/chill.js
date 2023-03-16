@@ -1,12 +1,13 @@
-const temp = document.querySelector("#current-temp").innerHTML;
-const wSpeed = document.querySelector("#windSpeed").innerHTML;
-var windChill = 35.74 + (0.6215 * temp)-35.75 * Math.pow(wSpeed,0.16) + (0.4275*temp*Math.pow(wSpeed,0.16));
+const temp = document.querySelector("#current-temp").textContent;
+const wSpeed = document.querySelector("#windSpeed").textContent;
+const windChills = 35.74 + (0.6215 * temp) + (0.4275 * temp * (wSpeed**0.16))  - (35.75 * (wSpeed**0.16)) ;
 
-var windChill = Math.round(windChill);
+const windChill = Math.round(windChills);
+document.querySelector("#windChill").textContent = windChill;
 
-if (temp <=100 && wSpeed > 2){
+/*if (temp <= 52 && wSpeed > 3){
 document.querySelector("#windChill").innerHTML= windChill;
 }
 else{
-    document.querySelector("#windChill").innerHTML='N/A';
-}
+document.querySelector("#windChill").innerHTML='N/A';
+}*/

@@ -31,7 +31,7 @@ header{
     color:#ffffff;
     font-family:'Lato', sans-serif;
 }
-.page-logo img, .logo-foot img{
+.page-logo img, .logo-foot img, .location img{
     max-height: 10rem;
     max-width: 10rem;
     padding: 0rem;
@@ -108,7 +108,7 @@ nav ul.open{display:block;}
     float:none;
 }
 #main section figure.wdd230 img {
-    width:90%;
+    width:80%;
 }
 figure h3 {
     position:absolute;
