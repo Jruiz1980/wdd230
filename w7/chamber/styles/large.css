@@ -74,7 +74,17 @@
     .directory-main {
         margin: 2em auto;
     }
-
+    .logo-foot{
+        align-self:center;
+        grid-column:1/2;
+        grid-row:1/2;
+        justify-self:center;
+    }
+    .location{
+        grid-column:3/4;
+        align-self:center;
+        justify-self: center;
+    }
     .gallery {
         grid-template-columns: 33% 33% 33%;
     }
