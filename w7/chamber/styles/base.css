@@ -30,6 +30,7 @@ header{
     background-color: #115B9C;
     color:#ffffff;
     font-family:'Lato', sans-serif;
+    margin:0rem;
 }
 .page-logo img, .logo-foot img, .location img{
     max-height: 10rem;
@@ -131,10 +132,11 @@ figure h3 {
     line-height: 2rem;
     background-color:#115B9C;
 }
-section{
+section {
     background-color: #C2D7E6;
     height: 20em;
     width: 100%;
+    margin-bottom:0.5rem;
     font-family:"Nunito", Verdana, sans-serif;
     color:#115B9C;
     font-weight: bold;
