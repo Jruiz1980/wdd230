@@ -58,6 +58,12 @@ header{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.social{
+    grid-column:1/3;
+}
+.social img {
+    padding-left: 2rem;
+}
 
 nav ul {
     display: flex;
@@ -211,10 +217,6 @@ section{
     font-size:1em;
     line-height: 2em;
     place-content: center;
-}
-.location iframe{
-    width: 10rem;
-    height:10rem; 
 }
 
 /*------------------------Discover site-----------------------------*/
