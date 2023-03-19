@@ -526,3 +526,15 @@ form label.li input:required{
 form label.li input:required:valid{
     border: green solid 2px;
 }
+/*----THANKS---------*/
+    .thanks {
+        margin: 4em 1em;
+        text-align: center;
+        font-size:2rem;
+        color:#115B9C;
+        line-height: 2rem;
+    }
+
+    .emoji-medium {
+        font-size: 40px;
+    }
