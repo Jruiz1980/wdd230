@@ -221,6 +221,9 @@ section {
     line-height: 2em;
     place-content: center;
 }
+.news{
+    display: grid;
+}
 
 /*------------------------Discover site-----------------------------*/
 
