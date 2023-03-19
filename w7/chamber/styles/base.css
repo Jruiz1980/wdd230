@@ -466,6 +466,8 @@ td:nth-child(4){
     display: inline-block;
     width: 90px;
     text-align: right;
+    color:#115B9C;
+    font-size: 1.2rem;
     }
 
 input,
@@ -507,15 +509,20 @@ button {
     margin-left: 0.5em;
 }
 #feedback {
-        background-color: antiquewhite;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         padding: .5em;
-        /* make this element invisible until we are ready for it */
-        display: none;      
+        /* make this element invisible until we are ready for it 
+        display: none;*/
 }
 .moveDown {
         margin-top: 3em;
-    }
+}
+form label.li input:required{
+    border:red solid 2px; 
+}
+form label.li input:required:valid{
+    border: green solid 2px;
+}
