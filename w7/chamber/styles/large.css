@@ -54,6 +54,9 @@
         grid-row:1/4;
         height:100%;
     }
+    .spot3 img {
+        width:50%;
+    }
     .weather{
         grid-column:1/2;
     }
