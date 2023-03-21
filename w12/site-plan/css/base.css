@@ -273,7 +273,7 @@ main picture img {
 footer p {
     padding: 1em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
