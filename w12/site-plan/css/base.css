@@ -181,76 +181,17 @@ section span,
 section p {
     text-align: center;
 }
-
 .tab-grid {
-    border:1px solid;
-    width:50%;
+    padding:3rem;
 }
-.color_grid {
-    margin: 1em;
-    display: grid;
-    border: 1px solid black;
+th{
+    border-style:outset;
+    width:10rem;
+    height:5rem;
 }
-
-.color_grid span {
-    border: 1px solid #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.7em;
+.color1 {
+    background-color:#696900;
 }
-
-.color_grid span:nth-child(4) {
-    background-color: #e48240;
-}
-
-.color_grid span:nth-child(5) {
-    background-color: #e48240;
-    font-size: 1.5em;
-    font-family: "Kaushan Script", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(9) {
-    background-color: #1f4f70;
-    color: white;
-}
-
-.color_grid span:nth-child(10) {
-    background-color: #1f4f70;
-    color: white;
-    font-size: 1.1em;
-    font-family: "Comfortaa", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(14) {
-    background-color: #1f4f70;
-    color: white;
-}
-
-.color_grid span:nth-child(15) {
-    background-color: #1f4f70;
-    color: white;
-    font-size: 1.1em;
-    font-family: "Comfortaa", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(20) {
-    font-size: 1.2em;
-    font-family: "Kaushan Script", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(25) {
-    font-size: 1em;
-    font-family: "Kaushan Script", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(30) {
-    font-size: 1em;
-    font-family: "Comfortaa", sans-serif, Helvetica;
-}
-
-.color_grid span:nth-child(35) {
-    font-size: 0.9em;
-    font-style: bold;
-    font-family: "Comfortaa", sans-serif, Helvetica;
+.color2 {
+    background-color:magenta;
 }
