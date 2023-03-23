@@ -151,28 +151,29 @@ section h2 {
     margin: 1em 0;
 }
 
-.boxes div {
+.boxes h3 {
     border: 1px solid black;
     width: 100px;
     height: 70px;
     margin: auto auto;
 }
 
-.boxes:first-child div {
+.boxes:first-child h3 {
     background-color: #e48240;
+    top:50%;
 }
 
-.boxes:nth-child(2) div {
+.boxes:nth-child(2) h3 {
     color: white;
     background-color: #1f4f70;
 }
 
-.boxes:nth-child(3) div {
+.boxes:nth-child(3) h3 {
     color: white;
     background-color: #000000;
 }
 
-.boxes:last-child div {
+.boxes:last-child h3 {
     background-color: #e5e5e5;
 }
 
@@ -181,6 +182,10 @@ section p {
     text-align: center;
 }
 
+.tab-grid {
+    border:1px solid;
+    width:50%;
+}
 .color_grid {
     margin: 1em;
     display: grid;
