@@ -16,7 +16,7 @@ body {
 
 header,
 footer {
-    background-color: #e48240;
+    background-color: #8B0B15;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -31,7 +31,7 @@ footer {
 }
 
 nav {
-    background-color: #1f4f70;
+    background-color: #FF9525;
     margin: 0 auto;
     max-width: 800px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.9);
@@ -48,18 +48,18 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #8B0B15;
     text-align: center;
     padding: 0.8em;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 nav ul li:hover a {
     width: 10em;
     margin: auto auto;
-    color: #1f4f70;
-    background-color: white;
+    color: #FF9525;
+    background-color:#8B0B15;
 }
 
 main {
@@ -100,6 +100,7 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color:#FF9525;
 }
 
 /* target Audience*/
@@ -172,7 +173,7 @@ section h2 {
 
 .boxes:nth-child(3) h3 {
     color: black;
-    background-color: #BBC753;
+    background-color: #EDF5A5;
 }
 
 .boxes:last-child h3 {
@@ -191,11 +192,27 @@ th{
     border-style:outset;
     width:10rem;
     height:5rem;
+    color:#040404;
+    font-family:'Prompt', sans-serif;
 }
 .color1 {
     background-color:#FF9525;
+    font-family:'Delicious Handrawn', sans-serif;
+    font-size:1.6em;
+    color:#8B0B15
 }
 .color2 {
     background-color:#8B0B15;
+    font-family:'Kanit', sans-serif;
+    font-size:1.3em;
     color:#FF9525
+}
+.color3 {
+    background-color:#EDF5A5;
+    color:#8B0B15;
+    font-family:'Delicious Handrawn', sans-serif;
+    font-size:1.2em;
+}
+.color4 {
+    background-color:#EDF5A5;
 }
