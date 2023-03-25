@@ -1,4 +1,7 @@
 @media only screen and (min-width: 37.5rem) {
+    nav {
+        width:50%;
+    }
     nav ul {
         display: flex;
         justify-content: space-evenly;
