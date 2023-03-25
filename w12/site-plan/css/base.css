@@ -92,7 +92,6 @@ main picture {
 main picture img {
     width: 50%;
     height: auto;
-    border-radius: 50%;
 }
 
 footer p {
