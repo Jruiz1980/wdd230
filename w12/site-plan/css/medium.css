@@ -58,6 +58,7 @@
     .audience, .scenario, .personas{
         margin: 0 auto;
         max-width:40em;
+        padding:2em;
     }
     .large {
         grid-row:1/2;

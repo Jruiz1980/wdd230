@@ -109,6 +109,9 @@ main article:nth-child(1) {
     grid-column: 1/2;
 }
 /* target Audience*/
+.personas ul li{
+    text-align:left;
+}
 
 main article:last-child ul {
     text-align: left;
