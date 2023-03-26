@@ -51,6 +51,14 @@
         grid-column:2/3;
         grid-row:2/3;
     }
+    .target {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .audience, .scenario, .personas{
+        margin: 0 auto;
+        max-width:40em;
+    }
     .large {
         grid-row:1/2;
     }

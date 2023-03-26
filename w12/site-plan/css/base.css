@@ -38,6 +38,7 @@ nav {
 
 .logo {
     width:50%;
+    margin: 0 0 0 85px; 
 
 }
 
@@ -108,26 +109,6 @@ main article:nth-child(1) {
     grid-column: 1/2;
 }
 /* target Audience*/
-
-.personas_grid {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.personas_grid ul {
-    list-style-type: none;
-    text-align: left;
-    padding-right: -0.5em;
-    display: grid;
-    grid-template-rows: repeat(6, 1fr);
-}
-
-.personas_grid ul li {
-    border: 1px solid black;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-}
 
 main article:last-child ul {
     text-align: left;
