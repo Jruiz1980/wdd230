@@ -60,4 +60,13 @@
     .base {
         grid-row:3/4;
     }
+    .l {
+        grid-row:1/2;
+    }
+    .m {
+        grid-row:2/3;
+    }
+    .b {
+        grid-row:3/4;
+    }
 }
