@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-    width: 10em;
+    width: 15em;
     margin: auto auto;
     color: #FF9525;
     background-color:#8B0B15;
@@ -219,4 +219,13 @@ th{
 }
 .color4 {
     background-color:#EDF5A5;
+}
+.large {
+    grid-row:1/2;
+}
+.mediun {
+    grid-row:1/2;
+}
+.base {
+    grid-row:3/4;
 }
