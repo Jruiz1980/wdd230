@@ -10,28 +10,30 @@ header div {
     background-color:#8B0B15;
     padding: 0.5em;
     width:10em;
-
 }
 header div img {
     width:100%;
 }
 header nav {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
     background-color:#FF9525;
     color:#8B0B15;
     width:30em;
 }
 header nav h2 {
-    grid-column:1/2;
     align-self:center;
     padding: 1rem;
 }
 header nav ul {
-    grid-column:2/3;
     list-style-type: none;
+    justify-content: space-between;
+    list-style-type: none;
+    padding:0;
+    margin:0;
 }
 header nav ul li a {
+    display:block;
+    padding: 0.8rem 2vw;
     text-decoration: none;
     color:#8B0B15;
     font-size:1.2em;
@@ -39,13 +41,21 @@ header nav ul li a {
 header nav ul li:nth-child(1){
     font-size:2em;
 }
-#burger-ico {
+button {
     margin: 0.2rem 2vw;
-    background: transparent;
+    background-color: #FF9525;
     border:none;
-    font-size: 2rem;
+    font-size: 3rem;
     color:#8B0B15;
 }
+#sidebar-ico {display:none;}
+#sidebar-ico.open {display:block;}
+
+#burguer-ico span:nth-child(1){display:block;}
+#burguer-ico span:nth-child(2){display:none;}
+
+#burguer-ico.open span:nth-child(1){display:none;}
+#burguer-ico.open span:nth-child(2){display:block;}
 /*--------------------Fresh--------------------*/
 
 
