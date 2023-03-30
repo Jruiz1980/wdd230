@@ -33,7 +33,7 @@ header nav ul {
 }
 header nav ul li a {
     display:block;
-    padding: 0.8rem 2vw;
+    padding: 0.5rem 2vw;
     text-decoration: none;
     color:#8B0B15;
     font-size:1.2em;
