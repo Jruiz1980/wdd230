@@ -2,6 +2,9 @@
 
 /*--------------------Home--------------------*/
 /*HEADER*/
+body{
+    background-color:#EDF5A5;
+}
 header {
 display: flex;
 flex-direction: row;
@@ -13,7 +16,7 @@ header div {
     width:10em;
 }
 header div img {
-    width:100%;
+    width:6em;
 }
 header nav {
     display:flex;
@@ -22,6 +25,7 @@ header nav {
     width:30em;
 }
 header nav h2 {
+    font-size:1em;
     align-self:center;
     padding: 1rem;
     font-family:"Prompt", sans-serif;
@@ -35,23 +39,24 @@ header nav ul {
 }
 header nav ul li a {
     display:block;
-    padding: 0.5rem 2vw;
+    line-height: 1.5rem;
+    padding:0.2em;
     text-decoration: none;
     color:#8B0B15;
-    font-size:1.5em;
+    font-size:1em;
     font-family:"Delicious Handrawn", sans-serif;
 }
 header nav ul li:nth-child(1){
-    font-size:2.5em;
+    font-size:1.5em;
 }
 
 button {
     margin: 0.2rem 2vw;
     background-color: #FF9525;
     border:none;
-    font-size: 3rem;
+    font-size: 2rem;
     color:#8B0B15;
-    padding-left:3em;
+    padding-left:.4em;
 }
 #sidebar-ico {display:none;}
 #sidebar-ico.open {display:block;}
