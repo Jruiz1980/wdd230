@@ -47,6 +47,7 @@ button {
     border:none;
     font-size: 3rem;
     color:#8B0B15;
+    padding-left:3em;
 }
 #sidebar-ico {display:none;}
 #sidebar-ico.open {display:block;}
