@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64rem) {
 /*--------------------Home--------------------*/
 header nav {
-    width:70em;
+    width:100em;
 }
 #burguer-ico {
     display:none;
