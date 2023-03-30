@@ -9,15 +9,15 @@ justify-content: center;
 header div {
     background-color:#8B0B15;
     padding: 0.5em;
-    width:300px;
+    width:10em;
 }
 header div img {
-    width:50%;
+    width:100%;
 }
 header nav {
     background-color:#FF9525;
     color:#8B0B15;
-    width:300px;
+    width:30em;
 }
 header nav ul li a {
     text-decoration: none;
