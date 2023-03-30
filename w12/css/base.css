@@ -46,6 +46,11 @@ header nav ul li a {
     font-size:1em;
     font-family:"Delicious Handrawn", sans-serif;
 }
+header nav ul li a:hover {
+    background-color:#8B0B15;
+    color:#FF9525;
+    padding:auto;
+}
 header nav ul li:nth-child(1){
     font-size:1.5em;
 }
@@ -66,7 +71,9 @@ button {
 
 #burguer-ico.open span:nth-child(1){display:none;}
 #burguer-ico.open span:nth-child(2){display:block;}
+/*FOOTER*/
 /*---------------------------------------------*/
+
 /*--------------------Fresh--------------------*/
 
 

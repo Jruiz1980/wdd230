@@ -1,6 +1,27 @@
 @media only screen and (min-width: 37.5rem) {
 /*--------------------Home--------------------*/
-
+*´{margin:1000px;}
+header nav {
+    width:40em;
+}
+#burguer-ico{
+    padding-left:4.5em;
+}
+#sidebar-ico{
+    align-items: center;
+    padding-left:1em;
+}
+header nav h2 {
+    padding-left:3em;
+    font-size:1.5em;
+}
+header nav ul li a {
+    font-size:1.5em;
+    padding:.4em;
+}
+header div img {
+    width:105%;
+}
 
 
 

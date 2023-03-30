@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64rem) {
 /*--------------------Home--------------------*/
 header nav {
-    width:100em;
+    width:60em;
 }
 #burguer-ico {
     display:none;
@@ -9,15 +9,18 @@ header nav {
 #sidebar-ico{
     display:flex;
     align-items: center;
-    padding-left:8em;
+    padding-left:12em;
 }
 header nav h2 {
-    padding-left:4em;
+    padding-left:6em;
     font-size:2.2em;
 }
 header nav ul li a {
     font-size:2em;
-    padding:.5em;
+    padding:1em;
+}
+header div img {
+    width:105%;
 }
 
 
