@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kanit&family=Prompt&display=swap');
+
+/*--------------------Home--------------------*/
+header {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+header div {
+    background-color:#8B0B15;
+    padding: 0.5em;
+    width:300px;
+}
+header div img {
+    width:50%;
+}
+header nav {
+    background-color:#FF9525;
+    color:#8B0B15;
+    width:300px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color:#8B0B15;
+    font-size:1.2em;
+}
+header nav ul li:nth-child(2){
+    font-size:2em;
+}
+
+/*--------------------Fresh--------------------*/
+
+
+
+
+/*--------------------About Us--------------------*/
