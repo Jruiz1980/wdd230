@@ -72,7 +72,23 @@ button {
 #burguer-ico.open span:nth-child(1){display: none;}
 #burguer-ico.open span:nth-child(2){display: block;}
 /*FOOTER*/
-
+footer {
+    display: flex;
+    background-color: #8B0B15;
+    flex-direction: row;
+    justify-content: center;
+}
+footer div img {
+    width: 50%;
+}
+footer div p {
+    font-family:"Delicious Handrawn", sans-serif;
+    color: #FF9525;
+    font-size: .5em;
+}
+footer div a img {
+    width: 10%;
+}
 /*---------------------------------------------*/
 
 /*--------------------Fresh--------------------*/
