@@ -73,21 +73,44 @@ button {
 #burguer-ico.open span:nth-child(2){display: block;}
 /*FOOTER*/
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: #8B0B15;
-    flex-direction: row;
     justify-content: center;
 }
-footer div img {
-    width: 50%;
+footer div {
+    padding: 1em;
 }
-footer div p {
+.logo img {
+    width: 120%;
+}
+.dir, .map, .social {
+margin: 0;
+padding: 0;
+}
+.dir p {
     font-family:"Delicious Handrawn", sans-serif;
     color: #FF9525;
-    font-size: .5em;
+    font-size: .8em;
+    width:90%;
 }
-footer div a img {
-    width: 10%;
+.social img {
+    width: 15%;
+    padding: .25em;
+    position: relative;
+    top:40%;
+}
+.map-logo {
+    width: 50%;
+    position:relative;
+    top:50%;
+    left:30%;
+}
+.map figcaption {
+    font-family: "Delicious Handrawn", sans-serif;
+    text-decoration: none;
+    color: #FF9525;
+    font-size: 0.5em;
 }
 /*---------------------------------------------*/
 
