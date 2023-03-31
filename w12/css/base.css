@@ -56,12 +56,12 @@ header nav ul li:nth-child(1){
 }
 
 button {
-    margin: 0.2rem 2vw;
+    margin: .2rem 2vw;
     background-color: #FF9525;
     border: none;
     font-size: 2rem;
     color:#8B0B15;
-    padding-left: .4em;
+    padding-left: .6em;
 }
 #sidebar-ico {display: none;}
 #sidebar-ico.open {display: block;}
@@ -77,12 +77,13 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     background-color: #8B0B15;
     justify-content: center;
+    align-items: center;
 }
 footer div {
     padding: 1em;
 }
 .logo img {
-    width: 120%;
+    width: 100%;
 }
 .dir, .map, .social {
 margin: 0;
@@ -91,26 +92,22 @@ padding: 0;
 .dir p {
     font-family:"Delicious Handrawn", sans-serif;
     color: #FF9525;
-    font-size: .8em;
+    font-size: .7em;
     width:90%;
+    margin:0;
 }
 .social img {
-    width: 15%;
-    padding: .25em;
-    position: relative;
-    top:40%;
+    width: 20%;
+    padding: .2em;
 }
-.map-logo {
+.map-logo img {
     width: 50%;
-    position:relative;
-    top:50%;
-    left:30%;
 }
 .map figcaption {
     font-family: "Delicious Handrawn", sans-serif;
     text-decoration: none;
     color: #FF9525;
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 /*---------------------------------------------*/
 
