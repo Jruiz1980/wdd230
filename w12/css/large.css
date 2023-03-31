@@ -1,26 +1,32 @@
 @media only screen and (min-width: 64rem) {
 /*--------------------Home--------------------*/
 header nav {
-    width:60em;
+    width: 60em;
+    height: 106px;
+}
+header div {
+    height: 90px;
+    width: 90px;
 }
 #burguer-ico {
-    display:none;
+    display: none;
 }
 #sidebar-ico{
-    display:flex;
+    display: flex;
     align-items: center;
-    padding-left:12em;
+    padding-left: 6em;
 }
 header nav h2 {
-    padding-left:6em;
-    font-size:2.2em;
+    padding-left: 6em;
+    font-size: 2em;
 }
 header nav ul li a {
-    font-size:2em;
-    padding:1em;
+    font-size: 1.5em;
+    padding: 1em;
 }
 header div img {
-    width:105%;
+    width: 95%;
+    padding-left: 0.2em;
 }
 
 

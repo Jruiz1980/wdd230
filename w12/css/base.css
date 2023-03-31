@@ -3,7 +3,7 @@
 /*--------------------Home--------------------*/
 /*HEADER*/
 body{
-    background-color:#EDF5A5;
+    background-color: #EDF5A5;
 }
 header {
 display: flex;
@@ -11,67 +11,68 @@ flex-direction: row;
 justify-content: center;
 }
 header div {
-    background-color:#8B0B15;
+    background-color: #8B0B15;
     padding: 0.5em;
-    width:10em;
+    width: 10em;
 }
 header div img {
-    width:6em;
+    width: 6em;
 }
 header nav {
-    display:flex;
-    background-color:#FF9525;
-    color:#8B0B15;
-    width:30em;
+    display: flex;
+    background-color: #FF9525;
+    color: #8B0B15;
+    width: 30em;
 }
 header nav h2 {
-    font-size:1em;
-    align-self:center;
+    font-size: 1em;
+    align-self: center;
     padding: 1rem;
-    font-family:"Prompt", sans-serif;
+    font-family: "Prompt", sans-serif;
 }
 header nav ul {
     list-style-type: none;
     justify-content: space-between;
     list-style-type: none;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 header nav ul li a {
-    display:block;
+    display: block;
     line-height: 1.5rem;
-    padding:0.2em;
+    padding: 0.2em;
     text-decoration: none;
-    color:#8B0B15;
-    font-size:1em;
-    font-family:"Delicious Handrawn", sans-serif;
+    color: #8B0B15;
+    font-size: 1em;
+    font-family: "Delicious Handrawn", sans-serif;
 }
 header nav ul li a:hover {
-    background-color:#8B0B15;
-    color:#FF9525;
-    padding:auto;
+    background-color: #8B0B15;
+    color: #FF9525;
+    padding: auto;
 }
 header nav ul li:nth-child(1){
-    font-size:1.5em;
+    font-size: 1.5em;
 }
 
 button {
     margin: 0.2rem 2vw;
     background-color: #FF9525;
-    border:none;
+    border: none;
     font-size: 2rem;
     color:#8B0B15;
-    padding-left:.4em;
+    padding-left: .4em;
 }
-#sidebar-ico {display:none;}
-#sidebar-ico.open {display:block;}
+#sidebar-ico {display: none;}
+#sidebar-ico.open {display: block;}
 
-#burguer-ico span:nth-child(1){display:block;}
-#burguer-ico span:nth-child(2){display:none;}
+#burguer-ico span:nth-child(1){display: block;}
+#burguer-ico span:nth-child(2){display: none;}
 
-#burguer-ico.open span:nth-child(1){display:none;}
-#burguer-ico.open span:nth-child(2){display:block;}
+#burguer-ico.open span:nth-child(1){display: none;}
+#burguer-ico.open span:nth-child(2){display: block;}
 /*FOOTER*/
+
 /*---------------------------------------------*/
 
 /*--------------------Fresh--------------------*/
