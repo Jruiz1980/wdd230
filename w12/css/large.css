@@ -30,14 +30,14 @@ header div img {
 }
 /*FOOTER*/
 footer {
-    width: 60em;
+    width: 66.7em;
     height: 106px;
 }
 .logo img {
     width: 40%;
 }
 .logo{
-    padding:0.5em;
+    padding:0.4em;
 }
 .dir p {
     font-size:1.1em;
