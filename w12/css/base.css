@@ -78,6 +78,7 @@ footer {
     background-color: #8B0B15;
     justify-content: center;
     align-items: center;
+    height: 8em;
 }
 footer div {
     padding: 1em;
@@ -85,29 +86,36 @@ footer div {
 .logo img {
     width: 100%;
 }
-.dir, .map, .social {
+.dir, .map, .social, figure {
 margin: 0;
 padding: 0;
+border: 0;
 }
 .dir p {
-    font-family:"Delicious Handrawn", sans-serif;
+    font-family:"Kanit", sans-serif;
     color: #FF9525;
-    font-size: .7em;
-    width:90%;
+    font-size: .6em;
     margin:0;
+    line-height: 1.7em;
 }
 .social img {
     width: 20%;
     padding: .2em;
 }
 .map-logo img {
-    width: 50%;
+    width: 25%;
+    position: relative;
+    left: 35%;  
+}
+footer div a {
+    text-decoration: none;
 }
 .map figcaption {
-    font-family: "Delicious Handrawn", sans-serif;
-    text-decoration: none;
+    font-family: "Kanit", sans-serif;
     color: #FF9525;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    position: relative;
+    left: 20%;  
 }
 /*---------------------------------------------*/
 
