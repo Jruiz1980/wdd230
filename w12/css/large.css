@@ -28,8 +28,30 @@ header div img {
     width: 95%;
     padding-left: 0.2em;
 }
-
-
+/*FOOTER*/
+footer {
+    width: 60em;
+    height: 106px;
+}
+.logo img {
+    width: 40%;
+}
+.logo{
+    padding:0.5em;
+}
+.dir p {
+    font-size:1.1em;
+}
+.social img {
+    width: 15%;
+    padding: .7em;
+}
+.map-logo img {
+    width:10%;
+}
+.map figcaption {
+    font-size:1.5em;
+}
 /*--------------------Fresh--------------------*/
 
 

@@ -3,7 +3,10 @@
 /*--------------------Home--------------------*/
 /*HEADER*/
 body{
+    display:flex;
     background-color: #EDF5A5;
+    flex-direction: column;
+    align-items: center;
 }
 header {
 display: flex;
