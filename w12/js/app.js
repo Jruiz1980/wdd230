@@ -4,3 +4,4 @@ function toggleMenu(){
 }
 const x = document.getElementById('burguer-ico')
 x.onclick = toggleMenu;
+document.getElementById('lastModified').innerText = document.lastModified;
