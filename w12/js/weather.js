@@ -1,6 +1,6 @@
 // select HTML elements in the document
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
+const currentTemp = document.querySelector('#currenTemp');
+const weatherIcon = document.querySelector('#weatherIcon');
 const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#windSpeed');
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=3f3f013e4fed008181e53a4db70ffb93';
