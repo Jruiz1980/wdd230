@@ -29,11 +29,20 @@
         </header>
         <main>
             <div class="hero">
-                <img class="hero-pic" src="images/hero.jpg" alt="hero" width="300px">
+                <img class="hero-pic" src="images/hero.jpg" alt="hero" width="330px">
             </div>
-            <section id="weather">
-
-            </section>
+            <div class="weather">
+                <h3>Current Weather</h3>
+                <figure>
+                    <img src="#" alt="Weather Icon" id="weather-icon">
+                    <figcaption class="desc"></figcaption>
+                </figure>
+                <p class="temperature"><span id="current-temp"></span>&deg;F</p>
+                <p id="desc" class="temperature"></p>
+                <p>Humidity is <span id="humidity">00</span>%</p>
+                <hr>
+                <div id="forecast" class="forecast"></div>
+            </div>
         </main>
         <footer>
             <div class="logo">
