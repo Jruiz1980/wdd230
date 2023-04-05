@@ -170,11 +170,11 @@ hr{
 	width: 100%;
 	background-color: #8B0B15;
 }
-.city-info figure img {
+.city-info figure img, .fruits figure img {
     position: relative;
     left: 4%;
 }
-.city-info figcaption {
+.city-info figcaption, .fruits figcaption {
     padding: 1em;
 }
 /*---------------------------------------------*/
