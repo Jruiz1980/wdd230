@@ -125,13 +125,16 @@ footer div a {
     grid-column: 1/5;
 }
 /*WEATHER*/
+main div {
+    padding: 0.5rem;
+}
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-family: "Prompt" , sans-serif
 }
-.hero {
+.hero, .juice {
     overflow: hidden;
     position: relative;
 }
@@ -172,10 +175,29 @@ hr{
 }
 .city-info figure img, .fruits figure img {
     position: relative;
-    left: 4%;
+    left: 2%;
 }
 .city-info figcaption, .fruits figcaption {
-    padding: 1em;
+    padding: .5em;
+}
+.juice figcaption a {
+    text-decoration: none;
+    padding: .3rem .5rem;
+    color:#FF9525;
+    background-color: #8B0B15;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+    text-align: center;
+}
+.juice figcaption a:hover {
+    background-color: #FF9525;
+    color: #8B0B15;
 }
 /*---------------------------------------------*/
 
