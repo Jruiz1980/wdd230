@@ -14,7 +14,7 @@ justify-content: center;
 header div {
     background-color: #8B0B15;
     padding: 0.5em;
-    width: 10em;
+    width: 8em;
 }
 header div img {
     width: 6em;
@@ -79,7 +79,7 @@ footer {
     background-color: #8B0B15;
     justify-content: center;
     align-items: center;
-    height: 9em;
+    height: 11em;
 }
 footer div {
     padding: 1em;
@@ -132,7 +132,20 @@ main {
     font-family: "Prompt" , sans-serif
 }
 .hero {
-
+    overflow: hidden;
+    position: relative;
+}
+.hero p {
+transform: translate(-50%,-50%);
+position: absolute;
+top: 35%;
+left: 45%;
+font-size: 2rem;
+font-weight: bold;
+color: #8B0B15;
+}
+.hero-pic {
+    opacity: 0.5;
 }
 .weather{
     text-align: center;
@@ -153,9 +166,16 @@ main {
     padding: 0.25em;
 }
 hr{
-	height: 1px;
+	height: .8px;
 	width: 100%;
 	background-color: #8B0B15;
+}
+.city-info figure img {
+    position: relative;
+    left: 4%;
+}
+.city-info figcaption {
+    padding: 1em;
 }
 /*---------------------------------------------*/
 
