@@ -95,10 +95,20 @@ main {
 }
 .add {
     position: relative;
-    left:20%;
-    width:60%;
+    left:15%;
+    width:50%;
 }
-
+.choose {
+    width:40%;
+    position:relative;
+    left:25%;
+}
+#form-output {
+    text-align:center;
+    width:50%;
+    position:relative;
+    left:24%;
+}
 
 /*--------------------About Us--------------------*/
 }

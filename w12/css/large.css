@@ -114,6 +114,22 @@ main {
     padding: .8rem;
 }
 /*--------------------Fresh--------------------*/
+.fresh {
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align:center;
+}
+.contact-form, .choose, #form-output {
+    width:60%;
+}
+.choose {
+    position:relative;
+    left:18.5%;
+}
+#form-output {
+    position:relative;
+    left:19%;
+}
 
 
 

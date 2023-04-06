@@ -235,7 +235,7 @@ form label.top input:required {
 	border-left: solid 0.6rem #8B0B15 ;
 }
 form label.top input:required:valid {
-	border-left: solid 0.6rem #EBFC55;
+	border-left: solid 0.6rem #FF9525;
 }
 select#fruit1, select#fruit2, select#fruit3 {
     border: 2px solid #8B0B15;
