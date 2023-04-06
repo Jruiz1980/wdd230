@@ -28,7 +28,63 @@
             </nav>
         </header>
         <main>
-PICTURES
+            <h1>Create Your Favorite Drink </h1>
+            <div id="form-input"> 
+                <form class="form-drink" onsubmit="openForm();return false;">
+                    <fieldset class="contact-form">
+                        <legend>Contact Details</legend>
+                        <label class="top" for="fname">First name* <input type="text" name="fname" id="fname" required></label>
+                        <label class="top" for="email">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top" for="phone">Phone-number* <input type="tel" name="phone" id="phone" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose your drink</legend>
+                        
+                        <div class="flavors">
+                            <label class="top">
+                                <select id="fruit1" name="fruit1"></select>
+                            </label>
+                            <label class="top">
+                                <select id="fruit2" name="fruit2"></select>
+                            </label>
+                            <label class="top">
+                                <select id="fruit3" name="fruit3"></select>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="top" for="instructions">Add special instructions (if needed)<textarea id="instructions" name="instructions"></textarea></label>
+                        </div>
+                    </fieldset>
+                    <input id="submit-button" class="submitBtn button-pink" type="submit" value="Submit">
+                </form>
+            </div>
+            <div id="form-output">
+                <form action="#" class="form-data">
+                    <fieldset class="order">
+                    <legend>Your order</legend>
+                    <h2>Contact Details</h2>
+                    <p id="order-fname"></p>
+                    <p id="order-email"></p>
+                    <p id="order-phone"></p>
+                    <p id="order-date"></p>
+                    <br>
+                    <h1>Fruit</h1>
+                    <p id="order-fruit1"></p>
+                    <p id="order-fruit2"></p>
+                    <p id="order-fruit3"></p>
+                    <p id="order-instructions"></p>
+                    </fieldset>
+                    <fieldset class="nutrition">
+                    <legend>Nutrition</legend>
+                    <h2>Total Calories: <span id="calories"></span></h2>
+                    <p>Carbs <span id="carbs"></span>(g)</p>
+                    <p>Protein <span id="protein"></span>(g)</p>
+                    <p>Sugar <span id="sugar"></span>(g)</p>
+                    <p>Fat <span id="fat"></span>(g)</p>
+                    </fieldset>
+                    <button type="button" class="submitBtn button-pink" onclick="closeForm()">Close</button>
+                </form>
+            </div>
         </main>
         <footer>
             <div class="logo">

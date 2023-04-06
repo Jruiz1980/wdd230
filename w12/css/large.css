@@ -81,6 +81,10 @@ main {
     grid-row: 1/3;
     width:62.6%;
 }
+.city-info img,
+.fruits img, .store img {
+    width:100%;
+}
 .city-info {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -101,8 +105,13 @@ main {
     grid-row:4/5;
 }
 .juice img {
-    width:50%;
-    padding-left:15rem;
+    width:58%;
+    padding-left:10rem;
+}
+.juice figcaption a {
+    top:50%;
+    left:47%;
+    padding: .8rem;
 }
 /*--------------------Fresh--------------------*/
 
