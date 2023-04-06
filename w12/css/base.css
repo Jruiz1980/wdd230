@@ -23,7 +23,7 @@ header nav {
     display: flex;
     background-color: #FF9525;
     color: #8B0B15;
-    width: 30em;
+    width: auto;
 }
 header nav h2 {
     font-size: 1em;

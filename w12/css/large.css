@@ -4,14 +4,15 @@ body {
     display:flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 header nav {
-    width: 60em;
-    height: 106px;
+    width: auto;
+    min-height: 106px;
 }
 header div {
-    height: 90px;
-    width: 90px;
+    min-height: 90px;
+    min-width: 90px;
 }
 #burguer-ico {
     display: none;
@@ -35,8 +36,8 @@ header div img {
 }
 /*FOOTER*/
 footer {
-    width: 66.7em;
-    height: 220px;
+    width: auto;
+    min-height: 280px;
 }
 .logo img {
     width: 40%;
@@ -56,6 +57,52 @@ footer {
 }
 .map figcaption {
     font-size:1.5em;
+    padding-left:1.8rem;
+}
+/*MAIN*/
+main {
+    grid-template-columns: repeat(3, 1fr);
+}
+.hero { 
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.hero img {
+    width: 80%;
+    padding-left:16.5%;
+}
+.hero p {
+    top:30%;
+    left:55%;
+    font-size: 4rem;
+}
+.weather {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    width:62.6%;
+}
+.city-info {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.fruits {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.store {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.store img {
+    padding-right:20%;
+}
+.juice {
+    grid-column:1/5;
+    grid-row:4/5;
+}
+.juice img {
+    width:50%;
+    padding-left:15rem;
 }
 /*--------------------Fresh--------------------*/
 

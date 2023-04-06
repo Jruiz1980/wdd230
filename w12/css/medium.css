@@ -1,7 +1,7 @@
 @media only screen and (min-width: 37.5rem) {
 /*--------------------Home--------------------*/
 header nav {
-    width: 40em;
+    width: auto;
 }
 #burguer-ico{
     padding-left: 6.5em;
@@ -24,7 +24,7 @@ header div img {
 }
 /*FOOTER*/
 footer {
-    height: 17em;
+    height: 20em;
 }
 .logo img {
     width: 90%;
