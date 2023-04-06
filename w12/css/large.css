@@ -130,9 +130,14 @@ main {
     position:relative;
     left:19%;
 }
-
-
-
-
 /*--------------------About Us--------------------*/
+.about {
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.list{
+    list-style: none;
+}
+
 }
