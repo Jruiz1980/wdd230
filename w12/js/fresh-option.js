@@ -1,70 +1,70 @@
 // Fresh js
-const requestURL = 'js/fruits.json';
+const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
 fetch(requestURL) 
 .then(function (response) {
-    return response.json();
+return response.json();
 })
 .then(function (jsonObject) {
-    selectControls(jsonObject, '#fruit1');
-    selectControls(jsonObject, '#fruit2');
-    selectControls(jsonObject, '#fruit3');
+selectControls(jsonObject, '#fruit1');
+selectControls(jsonObject, '#fruit2');
+selectControls(jsonObject, '#fruit3');
 });
 
 function selectControls(drinks, controlId) {
-    let select = document.querySelector(controlId)
-    for(let x in drinks) {
+let select = document.querySelector(controlId)
+for(let x in drinks) {
     let option =  document.createElement("option")
     option.innerHTML = drinks[x].name;
     option.value = drinks[x].name;
     select.appendChild(option);
-    }
-    select.selectedIndex = -1;
+}
+select.selectedIndex = -1;
 }
 
 //fresh event
 function openForm() {
 
-    const firstName = document.getElementById("fname").value;
-    const email = document.getElementById("email").value;
-    const phone = document.getElementById("phone").value;
-    const fruit1 = document.getElementById("fruit1").value;
-    const fruit2 = document.getElementById("fruit2").value;
-    const fruit3 = document.getElementById("fruit3").value;
-    const instructions = document.getElementById("instructions").value;
-    const date = new Date();
+const firstName = document.getElementById("fname").value;
+const email = document.getElementById("email").value;
+const phone = document.getElementById("phone").value;
+const fruit1 = document.getElementById("fruit1").value;
+const fruit2 = document.getElementById("fruit2").value;
+const fruit3 = document.getElementById("fruit3").value;
+const instructions = document.getElementById("instructions").value;
+const date = new Date();
 
-    orderInfo(firstName, email, phone, date, fruit1, fruit2, fruit3, instructions);
-    nutritionInfo(fruit1, fruit2, fruit3);
+orderInfo(firstName, email, phone, date, fruit1, fruit2, fruit3, instructions);
+nutritionInfo(fruit1, fruit2, fruit3);
 
-    document.getElementById("form-output").style.display = "block";
-    document.getElementById("submit-button").style.display = "none";
+document.getElementById("form-output").style.display = "block";
+document.getElementById("submit-button").style.display = "none";
 }
 
 function closeForm() {
-    document.getElementById("form-output").style.display = "none";
-    document.getElementById("submit-button").style.display = "block";
+document.getElementById("form-output").style.display = "none";
+document.getElementById("submit-button").style.display = "block";
 }
 
 function orderInfo(firstName, email, phone, date, fruit1, fruit2, fruit3, instructions) {
-    document.getElementById("order-fname").textContent = firstName;
-    document.getElementById("order-email").textContent = email;
-    document.getElementById("order-phone").textContent = phone;
-    document.getElementById("order-fruit1").textContent = fruit1;
-    document.getElementById("order-fruit2").textContent = fruit2;
-    document.getElementById("order-fruit3").textContent = fruit3;
-    document.getElementById("order-instructions").textContent = instructions;
-    document.getElementById("order-date").textContent = `order date: ${date.getMonth() + 1}-${date.getDate()}-${date.getFullYear()}`;
+document.getElementById("order-fname").textContent = firstName;
+document.getElementById("order-email").textContent = email;
+document.getElementById("order-phone").textContent = phone;
+document.getElementById("order-fruit1").textContent = fruit1;
+document.getElementById("order-fruit2").textContent = fruit2;
+document.getElementById("order-fruit3").textContent = fruit3;
+document.getElementById("order-instructions").textContent = instructions;
+document.getElementById("order-date").textContent = `order date: ${date.getMonth() + 1}-${date.getDate()}-${date.getFullYear()}`;
 }
 
 function nutritionInfo(fruit1, fruit2, fruit3) {
-const requestURL = 'js/fruits.json';
+
 
 fetch(requestURL) 
-.then(function (response) {
+    .then(function (response) {
     return response.json();
-})
-.then(function (jsonObject) {
+    })
+    .then(function (jsonObject) {
     let fruit1_data = jsonObject.filter(fruit => fruit.name == fruit1)[0];
     let fruit2_data = jsonObject.filter(fruit => fruit.name == fruit2)[0];
     let fruit3_data = jsonObject.filter(fruit => fruit.name == fruit3)[0];
@@ -79,7 +79,7 @@ fetch(requestURL)
     document.getElementById("sugar").textContent = sugar.toFixed(0);
     document.getElementById("calories").textContent = calories.toFixed(0);
     document.getElementById("fat").textContent = fat.toFixed(0);
-});
+    });
 }
 
 
@@ -90,13 +90,6 @@ localStorage.setItem("drinks", drinksCounter);
 // Drinks counter 
 const drinks = document.querySelector("#drinks_purchased");
 let drinksCount = Number(window.localStorage.getItem("drinks"));
-
-if (drinksCount !== 0) {
-drinks.textContent = `${drinksCount}`;
-} else {
-drinks.textContent = `not yet`;
-}
-
 
 
 

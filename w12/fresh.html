@@ -27,19 +27,20 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <h1>Create Your Favorite Drink </h1>
+        <main class="fresh">
+            <h2>Create Your Favorite Drink </h2>
             <div id="form-input"> 
                 <form class="form-drink" onsubmit="openForm();return false;">
                     <fieldset class="contact-form">
                         <legend>Contact Details</legend>
                         <label class="top" for="fname">First name* <input type="text" name="fname" id="fname" required></label>
-                        <label class="top" for="email">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top" for="email">Email* 
+                            <input type="email" name="email" id="email" placeholder="someone@gmail.com" required>
+                        </label>
                         <label class="top" for="phone">Phone-number* <input type="tel" name="phone" id="phone" required></label>
                     </fieldset>
                     <fieldset>
                         <legend>Choose your drink</legend>
-                        
                         <div class="flavors">
                             <label class="top">
                                 <select id="fruit1" name="fruit1"></select>
@@ -51,11 +52,13 @@
                                 <select id="fruit3" name="fruit3"></select>
                             </label>
                         </div>
-                        <div>
-                            <label class="top" for="instructions">Add special instructions (if needed)<textarea id="instructions" name="instructions"></textarea></label>
+                        <div class="add">
+                            <label class="top" for="instructions">Add Special Instructions 
+                                <textarea id="instructions" name="instructions"></textarea>
+                            </label>
                         </div>
                     </fieldset>
-                    <input id="submit-button" class="submitBtn button-pink" type="submit" value="Submit">
+                    <input id="submit-button" class="submitBtn" type="submit" value="Submit">
                 </form>
             </div>
             <div id="form-output">
@@ -77,7 +80,7 @@
                     <fieldset class="nutrition">
                     <legend>Nutrition</legend>
                     <h2>Total Calories: <span id="calories"></span></h2>
-                    <p>Carbs <span id="carbs"></span>(g)</p>
+                    <p>Carbohydrates <span id="carbs"></span>(g)</p>
                     <p>Protein <span id="protein"></span>(g)</p>
                     <p>Sugar <span id="sugar"></span>(g)</p>
                     <p>Fat <span id="fat"></span>(g)</p>
