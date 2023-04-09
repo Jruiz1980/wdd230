@@ -9,21 +9,29 @@ let d = new Date();
     document.getElementById('currentYear').textContent = d.getFullYear();
 let lastUpdated = document.lastModified;
     document.getElementById('lastModified').textContent = lastUpdated;
+/*Lazy Load*/
+const images = document.querySelectorAll("img[data-src]");
+const loadImages = (image) => {
+    image.setAttribute("src", image.getAttribute("data-src"));
+    image.onload = () => {
+        image.removeAttribute("data-src");
+    };
+};
 
-document.addEventListener("DOMContentLoaded", function() {
-    var lazyBackgrounds = [].slice.call(document.querySelectorAll(".hero"));
-
-    if ("IntersectionObserver" in window) {
-        let lazyBackgroundObserver = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            lazyBackgroundObserver.unobserve(entry.target);
+if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+        items.forEach((item) => {
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                observer.unobserve(item.target);
             }
         });
     });
-    lazyBackgrounds.forEach(function(lazyBackground) {
-        lazyBackgroundObserver.observe(lazyBackground);
+    images.forEach((img) => {
+        observer.observe(img);
     });
-    }
-});
+} else {
+    images.forEach((img) => {
+        loadImages(img);
+    });
+}

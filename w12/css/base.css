@@ -135,11 +135,12 @@ main {
     justify-content: center;
     font-family: "Prompt" , sans-serif
 }
-.hero {
-    background-image: url("images/placeholder-landscape.png");
+img[data-src] {
+    filter: blur(0.3em);
 }
-.hero.visible {
-    background-image: url("images/hero.jpg");
+img {
+    filter: blur(0em);
+    transition: filter 1s;
 }
 .hero, .juice {
     overflow: hidden;
