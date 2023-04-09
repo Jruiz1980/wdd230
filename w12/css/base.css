@@ -135,6 +135,12 @@ main {
     justify-content: center;
     font-family: "Prompt" , sans-serif
 }
+.hero {
+    background-image: url("images/placeholder-landscape.png");
+}
+.hero.visible {
+    background-image: url("images/hero.jpg");
+}
 .hero, .juice {
     overflow: hidden;
     position: relative;
