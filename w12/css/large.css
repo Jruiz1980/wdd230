@@ -134,13 +134,13 @@ main {
 .about {
     display:grid;
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: justify;
 }
-.list{
-    list-style: none;
+.list {
+    text-align:left;
 }
 iframe {
-    position:relative;
-    left:38%;
+    padding-left:15%;
 }
+
 }

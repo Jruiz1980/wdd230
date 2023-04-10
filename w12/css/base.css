@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kanit&family=Prompt&display=swap');
-
 /*--------------------Home--------------------*/
 /*HEADER*/
 body{
@@ -51,7 +50,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #8B0B15;
     color: #FF9525;
-    padding: auto;
+    padding: 3rem;
 }
 header nav ul li:nth-child(1){
     font-size: 1.5em;
@@ -263,3 +262,9 @@ select#fruit1, select#fruit2, select#fruit3 {
 }
 
 /*--------------------About Us--------------------*/
+.about article p, iframe {
+    width: 300px;
+}
+.list {
+    list-style: none;
+}
