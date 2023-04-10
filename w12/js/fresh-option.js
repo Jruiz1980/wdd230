@@ -2,7 +2,7 @@
 const requestURL = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
 fetch(requestURL) 
-.then(function (response) {
+.then( (response) => {
 return response.json();
 })
 .then( (jsonObject) => {
@@ -61,7 +61,7 @@ function nutritionInfo(fruit1, fruit2, fruit3) {
 
 
 fetch(requestURL) 
-    .then(function (response) {
+    .then( (response) => {
     return response.json();
     })
     .then( (jsonObject) => {
