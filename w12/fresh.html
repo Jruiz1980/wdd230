@@ -43,13 +43,13 @@
                         <legend>Choose your drink</legend>
                         <div class="flavors">
                             <label class="top">
-                                <select id="fruit1" name="fruit1"></select>
+                                <select id="fruit1" name="fruit1" required></select>
                             </label>
                             <label class="top">
-                                <select id="fruit2" name="fruit2"></select>
+                                <select id="fruit2" name="fruit2" required></select>
                             </label>
                             <label class="top">
-                                <select id="fruit3" name="fruit3"></select>
+                                <select id="fruit3" name="fruit3" required></select>
                             </label>
                         </div>
                         <div class="add">
@@ -80,12 +80,12 @@
                     <fieldset class="nutrition">
                     <legend>Nutrition</legend>
                     <h2>Total Calories: <span id="calories"></span></h2>
-                    <p>Carbohydrates <span id="carbs"></span>g</p>
+                    <p>Carbohydrates <span id="carbohydrates"></span>g</p>
                     <p>Protein <span id="protein"></span>g</p>
                     <p>Sugar <span id="sugar"></span>g</p>
                     <p>Fat <span id="fat"></span>g</p>
                     </fieldset>
-                    <button type="button" class="submitBtn button-pink" onclick="closeForm()">Close</button>
+                    <button type="button" class="submitBtn" onclick="closeForm()">Close</button>
                 </form>
             </div>
         </main>
