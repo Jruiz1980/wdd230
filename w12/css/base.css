@@ -136,11 +136,11 @@ main {
     font-family: "Prompt" , sans-serif
 }
 img[data-src] {
-    filter: blur(0.3em);
+    filter: blur(0.8em);
 }
 img {
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 2s;
 }
 .hero, .juice {
     overflow: hidden;
