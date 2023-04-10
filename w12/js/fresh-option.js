@@ -5,7 +5,7 @@ fetch(requestURL)
 .then(function (response) {
 return response.json();
 })
-.then(function (jsonObject) {
+.then( (jsonObject) => {
 selectControls(jsonObject, '#fruit1');
 selectControls(jsonObject, '#fruit2');
 selectControls(jsonObject, '#fruit3');
@@ -64,7 +64,7 @@ fetch(requestURL)
     .then(function (response) {
     return response.json();
     })
-    .then(function (jsonObject) {
+    .then( (jsonObject) => {
     let fruit1_data = jsonObject.filter(fruit => fruit.name == fruit1)[0];
     let fruit2_data = jsonObject.filter(fruit => fruit.name == fruit2)[0];
     let fruit3_data = jsonObject.filter(fruit => fruit.name == fruit3)[0];
