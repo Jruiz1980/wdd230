@@ -69,12 +69,12 @@ fetch(requestURL)
     let fruit2_data = jsonObject.filter(fruit => fruit.name == fruit2)[0];
     let fruit3_data = jsonObject.filter(fruit => fruit.name == fruit3)[0];
 
-    const carbs = fruit1_data.nutritions.carbohydrates + fruit2_data.nutritions.carbohydrates + fruit3_data.nutritions.carbohydrates;
+    const carbohydrates = fruit1_data.nutritions.carbohydrates + fruit2_data.nutritions.carbohydrates + fruit3_data.nutritions.carbohydrates;
     const protein = fruit1_data.nutritions.protein + fruit2_data.nutritions.protein + fruit3_data.nutritions.protein;
     const sugar = fruit1_data.nutritions.sugar + fruit2_data.nutritions.sugar + fruit3_data.nutritions.sugar;
     const calories = fruit1_data.nutritions.calories + fruit2_data.nutritions.calories + fruit3_data.nutritions.calories;
     const fat = fruit1_data.nutritions.fat + fruit2_data.nutritions.fat + fruit3_data.nutritions.fat;
-    document.getElementById("carbs").textContent = carbs.toFixed(0);
+    document.getElementById("carbohydrates").textContent = carbohydrates.toFixed(0);
     document.getElementById("protein").textContent = protein.toFixed(0);
     document.getElementById("sugar").textContent = sugar.toFixed(0);
     document.getElementById("calories").textContent = calories.toFixed(0);
